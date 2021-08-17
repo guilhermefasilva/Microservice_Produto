@@ -5,6 +5,8 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 
@@ -13,6 +15,8 @@ import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequestUpda
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
 import io.guilhermefasilva.microservice.product.domain.enums.ProductStatus;
 import io.guilhermefasilva.microservice.product.domain.models.Product;
+import io.guilhermefasilva.microservice.product.exception.DatabaseException;
+import io.guilhermefasilva.microservice.product.exception.ResourceNotFoundException;
 import io.guilhermefasilva.microservice.product.repository.ProductRepository;
 
 @Service
@@ -40,26 +44,30 @@ public class ProductService {
 	
 	public ProductDtoResponse findById(Long id) {
 		Product product = productRepository.findById(id)
-				.orElseThrow(() -> new RuntimeException("Id não encontrado"));
+				.orElseThrow(() -> new ResourceNotFoundException(id));
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
 	
 	
 	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate) {
 		Product product = productRepository.findById(id)
-				.orElseThrow(()-> new RuntimeException("Id não encontrado"));
+				.orElseThrow(()-> new ResourceNotFoundException(id));
 		
 		product.setDescricao(productUpdate.getDescricao());
-		
+		product.setStatus(ProductStatus.valueOf(productUpdate.getStatus()));
 		this.productRepository.save(product);
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
 	
 	
 	public void delete(Long id) {
-		Product product = productRepository.findById(id)
-				.orElseThrow(()-> new RuntimeException("Id não encontrado"));
-		this.productRepository.delete(product);
+		try {
+			this.productRepository.deleteById(id);
+		}catch (EmptyResultDataAccessException e) {
+			throw new ResourceNotFoundException(id);
+		}catch(DataIntegrityViolationException e) {
+			throw new DatabaseException(e.getMessage());
+		}
 		
 	}
 

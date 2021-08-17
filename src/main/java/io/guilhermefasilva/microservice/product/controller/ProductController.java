@@ -3,6 +3,8 @@ package io.guilhermefasilva.microservice.product.controller;
 import java.net.URI;
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -29,6 +31,7 @@ public class ProductController {
 	private ProductService productService;
 	
 	@PostMapping
+	@Transactional
 	public ResponseEntity<ProductDtoResponse> create(@RequestBody ProductDtoRequest produto){
 			ProductDtoResponse produtoResponse =  productService.save(produto);
 			URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("{id}")
@@ -49,6 +52,7 @@ public class ProductController {
 	}
 	
 	@PutMapping("/{id}")
+	@Transactional
 	public ResponseEntity<ProductDtoResponse> update(@PathVariable Long id,
 			@RequestBody ProductDtoRequestUpdate productUpdate){
 		ProductDtoResponse productResponse = productService.update(id, productUpdate);
@@ -56,6 +60,7 @@ public class ProductController {
 		
 	}
 	@DeleteMapping("/{id}")
+	@Transactional
 	public ResponseEntity<?> delete(@PathVariable Long id){
 		productService.delete(id);
 		return ResponseEntity.noContent().build();
