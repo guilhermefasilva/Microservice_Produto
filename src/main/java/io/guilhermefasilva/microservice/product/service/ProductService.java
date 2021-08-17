@@ -55,6 +55,7 @@ public class ProductService {
 		
 		product.setDescricao(productUpdate.getDescricao());
 		product.setStatus(ProductStatus.valueOf(productUpdate.getStatus()));
+		
 		this.productRepository.save(product);
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
