@@ -28,7 +28,7 @@ public class Product {
 	private String nome;
 	private String marca;
 	private String descricao;
-	private BigDecimal preco;
+	//private BigDecimal preco;
 	
 	@Enumerated(EnumType.STRING)
 	private ProductStatus status;
