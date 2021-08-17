@@ -5,5 +5,7 @@ public enum ProductStatus {
 	
 	ATIVO,
 	INATIVO;
+	
+	
 
 }

@@ -55,5 +55,12 @@ public class ProductService {
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
 	
+	
+	public void delete(Long id) {
+		Product product = productRepository.findById(id)
+				.orElseThrow(()-> new RuntimeException("Id não encontrado"));
+		this.productRepository.delete(product);
+		
+	}
 
 }
