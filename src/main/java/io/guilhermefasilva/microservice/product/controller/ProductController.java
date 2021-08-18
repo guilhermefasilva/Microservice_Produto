@@ -4,6 +4,7 @@ import java.net.URI;
 import java.util.List;
 
 import javax.transaction.Transactional;
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -17,22 +18,28 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import io.guilhermefasilva.microservice.product.connections.constantes.RabbitmqConstantes;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequest;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequestUpdate;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
 import io.guilhermefasilva.microservice.product.service.ProductService;
+import io.guilhermefasilva.microservice.product.service.RabbitmqService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-@RequestMapping("/product")
+@RequestMapping("/products")
 public class ProductController {
-	
+
 	
 	@Autowired
 	private ProductService productService;
+	
+	@Autowired
+	private RabbitmqService rabbitmqService;
+	
 	
 	@PostMapping
 	@Transactional
@@ -53,10 +60,11 @@ public class ProductController {
 	}	
 			)
 	
-	public ResponseEntity<ProductDtoResponse> create(@RequestBody ProductDtoRequest produto){
+	public ResponseEntity<ProductDtoResponse> create(@Valid @RequestBody ProductDtoRequest produto){
 			ProductDtoResponse produtoResponse =  productService.save(produto);
 			URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("{id}")
 					.buildAndExpand(produtoResponse.getId()).toUri();
+			this.rabbitmqService.enviaMensagem(RabbitmqConstantes.FILA_PRODUCT, produtoResponse);
 		return ResponseEntity.created(uri).body(produtoResponse);
 	}
 	
@@ -119,9 +127,10 @@ public class ProductController {
 	}
 			)
 	
-	public ResponseEntity<ProductDtoResponse> update(@PathVariable Long id, @ApiParam("id do produto")
+	public ResponseEntity<ProductDtoResponse> update(@Valid @PathVariable Long id, @ApiParam("id do produto")
 			@RequestBody ProductDtoRequestUpdate productUpdate){
 		ProductDtoResponse productResponse = productService.update(id, productUpdate);
+		this.rabbitmqService.enviaMensagem(RabbitmqConstantes.FILA_PRODUCT, productResponse);
 		return ResponseEntity.ok().body(productResponse);
 		
 	}

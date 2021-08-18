@@ -9,7 +9,6 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequest;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequestUpdate;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
@@ -20,8 +19,9 @@ import io.guilhermefasilva.microservice.product.exception.ResourceNotFoundExcept
 import io.guilhermefasilva.microservice.product.repository.ProductRepository;
 
 @Service
-public class ProductService {
+public class ProductService  {
 	
+
 	@Autowired
 	private ProductRepository productRepository;
 	
