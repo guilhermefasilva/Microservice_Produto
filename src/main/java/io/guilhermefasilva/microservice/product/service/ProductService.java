@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
@@ -26,7 +27,13 @@ public class ProductService  {
 	private ProductRepository productRepository;
 	
 	@Autowired
+	private RabbitmqService rabbitmqService;
+	
+	@Autowired
 	private ModelMapper modelMapper;
+	
+	@Value("${spring.rabbitmq.queue}")
+	private String fila;
 	
 	
 	public ProductDtoResponse save(ProductDtoRequest productDtoRequest) {
@@ -49,20 +56,21 @@ public class ProductService  {
 	}
 	
 	
-	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate) {
+	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate){
 		Product product = productRepository.findById(id)
 				.orElseThrow(()-> new ResourceNotFoundException(id));
 		
 		product.setDescricao(productUpdate.getDescricao());
 		product.setStatus(ProductStatus.valueOf(productUpdate.getStatus()));
-		
 		this.productRepository.save(product);
+		this.rabbitmqService.enviaMensagem(fila, product);
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
 	
 	
 	public void delete(Long id) {
 		try {
+			
 			this.productRepository.deleteById(id);
 		}catch (EmptyResultDataAccessException e) {
 			throw new ResourceNotFoundException(id);

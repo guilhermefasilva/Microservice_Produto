@@ -1,16 +1,19 @@
 package io.guilhermefasilva.microservice.product.domain.dto;
 
-import java.io.Serializable;
-
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-public class ProductDtoRequestUpdate implements Serializable{
+@NoArgsConstructor
+public class ProductDtoRequestUpdate {
 	
-	private static final long serialVersionUID = 1L;
 
+	@ApiModelProperty(example = "Teclado sem fio com pilhas recarregaveis", required = true)
 	private String descricao;
-	private String Status;
+	
+	@ApiModelProperty(example = "Inativo")
+	private String status;
 	
 
 }
