@@ -14,7 +14,8 @@ public class RabbitmqService {
 		@Autowired
 		private RabbitTemplate rabbitTemplate;
 		
-		public void enviaMensagem(String nomeFila, Object mensagem) {
+				
+		public void enviaMensagem(String nomeFila, Object mensagem) {	
 			
 			try {
 				String json = new ObjectMapper().writeValueAsString(mensagem);
