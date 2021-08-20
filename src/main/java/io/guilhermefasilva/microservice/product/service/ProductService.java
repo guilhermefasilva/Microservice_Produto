@@ -5,7 +5,6 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequest;
@@ -24,14 +23,10 @@ public class ProductService  {
 	private ProductRepository productRepository;
 	
 	@Autowired
-	private RabbitmqService rabbitmqService;
+	private RabbitMqService rabbitmqService;
 	
 	@Autowired
 	private ModelMapper modelMapper;
-	
-	@Value("${spring.rabbitmq.queue}")
-	private String fila;
-	
 	
 	public ProductDtoResponse save(ProductDtoRequest productDtoRequest) {
 		Product product = modelMapper.map(productDtoRequest, Product.class); 
@@ -51,8 +46,7 @@ public class ProductService  {
 				.orElseThrow(() -> new ResourceNotFoundException(id));
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
-	
-	
+
 	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate){
 		Product product = productRepository.findById(id)
 				.orElseThrow(()-> new ResourceNotFoundException(id));
@@ -67,7 +61,7 @@ public class ProductService  {
 	public void delete(Long id) {
 		Product produto = productRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException(id));
-		this.rabbitmqService.enviaMensagem(fila, produto);
+		this.rabbitmqService.sendMessage(produto);
 		this.productRepository.delete(produto);
 		
 	}

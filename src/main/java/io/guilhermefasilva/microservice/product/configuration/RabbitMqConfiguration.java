@@ -1,4 +1,4 @@
-package io.guilhermefasilva.microservice.product.connections;
+package io.guilhermefasilva.microservice.product.configuration;
 
 import javax.annotation.PostConstruct;
 
@@ -8,10 +8,11 @@ import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Configuration;
 
-@Component
-public class RabbitMQConnection {
+@Configuration
+public class RabbitMqConfiguration {
+	
 	
 	@Value("${spring.rabbitmq.queue}")
 	private String nomeQueue;
@@ -30,9 +31,6 @@ public class RabbitMQConnection {
 	private DirectExchange trocaDireta() {
 		return new DirectExchange(nameExchange);
 	}
-	
-	
-	
 	
 	private Binding relacionamento (Queue fila, DirectExchange troca) {
 		return new Binding(fila.getName(), Binding.DestinationType.QUEUE, troca.getName(), fila.getName(), null);
@@ -54,8 +52,4 @@ public class RabbitMQConnection {
 		this.amqpAdmin.declareBinding(ligacaoProduto);
 		
 	}
-	
-	
-	
-	
 }
