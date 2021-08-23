@@ -3,7 +3,6 @@ package io.guilhermefasilva.microservice.product.controller;
 import java.net.URI;
 import java.util.List;
 
-import javax.transaction.Transactional;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,7 +35,6 @@ public class ProductController {
 	private ProductService productService;
 	
 	@PostMapping
-	@Transactional
 	@ApiOperation(value = "Realiza o cadastro de produtos")
 	@ApiResponses(value = {
 						@ApiResponse(code = 201, message = "Requisição bem sucedida"),
@@ -51,28 +49,29 @@ public class ProductController {
 	}
 	
 	@GetMapping
-	@ApiOperation(value = "Exibe todos os produtos cadastrados")
-	@ApiResponses(value = {
-					@ApiResponse(code = 200, message = "Requisição bem sucedida"),
-					@ApiResponse(code = 404, message = "Recurso não encontrado"),
-					@ApiResponse(code = 500, message = "Sistema indisponivel")})
-	
-	public ResponseEntity<List<ProductDtoResponse>> getAll(){
-		List<ProductDtoResponse> produtoResponse = productService.findAll();
-		return ResponseEntity.ok().body(produtoResponse);
-	}
-	
-	
-	@GetMapping("/page")
 	@ApiOperation(value = "Exibe produtos por pagnias")
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
 			@ApiResponse(code = 500, message = "Sistema Indisponivel")
 	})
 	public ResponseEntity<List<ProductDtoResponse>> getAllPage(@PageableDefault(page = 0, size = 5) Pageable pageable){
-		List<ProductDtoResponse> productResponsePage = productService.findAllPage(pageable);
+		List<ProductDtoResponse> productResponsePage = productService.findAll(pageable);
 		return ResponseEntity.ok().body(productResponsePage);
 	}
+	
+	
+	@GetMapping("/page")
+	@ApiResponses(value = {
+			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
+			@ApiResponse(code = 404, message = "Recurso não encontrado"),
+			@ApiResponse(code = 500, message = "Sistema indisponivel")})
+	public ResponseEntity<List<ProductDtoResponse>> getByName(String nome, Pageable pageable){
+		List<ProductDtoResponse> productResponse = productService.findByName(nome, pageable);
+		return ResponseEntity.ok().body(productResponse);
+	}
+	
+	
+	
 	
 	@GetMapping("/{id}")
 	@ApiOperation(value = "Exibe um produto atraves de um id válido")
@@ -87,7 +86,6 @@ public class ProductController {
 	}
 	
 	@PutMapping("/{id}")
-	@Transactional
 	@ApiOperation(value = "Atualizar informações de um produto")
 	@ApiResponses(value = {
 					@ApiResponse(code = 200, message = "Requisição bem sucedida" ),
@@ -102,7 +100,6 @@ public class ProductController {
 		
 	}
 	@DeleteMapping("/{id}")
-	@Transactional
 	@ApiOperation(value = "Excluir um produto da base de dados.")
 	@ApiResponses(value= {
 						@ApiResponse(code = 204, message = "Requisição bem sucedida, não há recurso a ser exibido"),

@@ -11,18 +11,17 @@ import lombok.NoArgsConstructor;
 public class ProductDtoResponse {
 	
 
-	@ApiModelProperty(example = "1")
+	@ApiModelProperty(notes="Id do produto",example = "1")
 	private Long id;
 	
-	@ApiModelProperty(example ="Teclado Luminoso")
+	@ApiModelProperty(notes="Nome do produto", example ="Teclado Luminoso")
 	private String nome;
-	@ApiModelProperty(example = "Dell")
+	@ApiModelProperty(notes="Marca do produto",example = "Dell")
 	private String marca;
-	@ApiModelProperty(example = "Teclado sem fio com bateria recarregavel e teclas luminosas")
+	@ApiModelProperty(notes="Descrição do produto", example = "Teclado sem fio com bateria recarregavel e teclas luminosas")
 	private String descricao;
-	@ApiModelProperty(example = "250.00")
+	@ApiModelProperty(notes="Preço do produto",example = "250.00")
 	private BigDecimal preco;
-	@ApiModelProperty(example = "Ativo")
-	private String status;
+	
 
 }

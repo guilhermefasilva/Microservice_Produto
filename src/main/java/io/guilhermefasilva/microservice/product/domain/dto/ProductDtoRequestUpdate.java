@@ -1,5 +1,7 @@
 package io.guilhermefasilva.microservice.product.domain.dto;
 
+import com.sun.istack.NotNull;
+
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -9,11 +11,8 @@ import lombok.NoArgsConstructor;
 public class ProductDtoRequestUpdate {
 	
 
-	@ApiModelProperty(example = "Teclado sem fio com pilhas recarregaveis", required = true)
+	@ApiModelProperty(notes ="Descrição do produto",example = "Teclado sem fio com pilhas recarregaveis", required = true)
+	@NotNull
 	private String descricao;
-	
-	@ApiModelProperty(example = "Inativo")
-	private String status;
-	
-
+		
 }

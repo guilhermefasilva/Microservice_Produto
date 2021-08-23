@@ -2,6 +2,9 @@ package io.guilhermefasilva.microservice.product.domain.dto;
 
 import java.math.BigDecimal;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,16 +14,21 @@ import lombok.NoArgsConstructor;
 public class ProductDtoRequest  {
 	
 	
-	@ApiModelProperty(example = "Mouse")
+	@ApiModelProperty(notes = "Nome do Produto",example =  "Mouse",required = true)
+	@NotEmpty(message = "{name.notEmpty}")
 	private String nome;
-	@ApiModelProperty(example = "LogginTech")
+	
+	@ApiModelProperty(notes="Marca do Produto", example = "LogginTech", required = true)
+	@NotNull
 	private String marca;
-	@ApiModelProperty(example = "Mouse com fio USB 2.0")
+	
+	@ApiModelProperty(notes ="Descrição do produto", example = "Mouse com fio USB 2.0")
 	private String descricao;
-	@ApiModelProperty(example = "80.00")
+	
+	@ApiModelProperty(notes = "Preço do produto", example = "80.00", required = true)
+	@NotNull
 	private BigDecimal preco;
-	@ApiModelProperty(example = "Ativo")
-	private String status;
+	
 	
 
 }
