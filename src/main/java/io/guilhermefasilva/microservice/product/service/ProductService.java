@@ -5,6 +5,8 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequest;
@@ -46,6 +48,16 @@ public class ProductService  {
 				.orElseThrow(() -> new ResourceNotFoundException(id));
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
+
+	
+	public List<ProductDtoResponse> findAllPage(Pageable pageable){
+		Page<Product> productPage = productRepository.findAll(pageable);
+		 List<Product> product = productPage.getContent();
+		 return product.stream()
+				 .map(p -> modelMapper.map(p, ProductDtoResponse.class))
+				 .collect(Collectors.toList()); 
+	}
+	
 
 	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate){
 		Product product = productRepository.findById(id)
