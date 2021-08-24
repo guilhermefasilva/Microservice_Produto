@@ -7,6 +7,7 @@ import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
@@ -49,28 +51,15 @@ public class ProductController {
 	}
 	
 	@GetMapping
-	@ApiOperation(value = "Exibe produtos por pagnias")
-	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
-			@ApiResponse(code = 500, message = "Sistema Indisponivel")
-	})
-	public ResponseEntity<List<ProductDtoResponse>> getAllPage(@PageableDefault(page = 0, size = 5) Pageable pageable){
-		List<ProductDtoResponse> productResponsePage = productService.findAll(pageable);
-		return ResponseEntity.ok().body(productResponsePage);
-	}
-	
-	
-	@GetMapping("/page")
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
 			@ApiResponse(code = 404, message = "Recurso não encontrado"),
 			@ApiResponse(code = 500, message = "Sistema indisponivel")})
-	public ResponseEntity<List<ProductDtoResponse>> getByName(String nome, Pageable pageable){
-		List<ProductDtoResponse> productResponse = productService.findByName(nome, pageable);
+	public ResponseEntity<List<ProductDtoResponse>> getByName(@RequestParam(required = false, defaultValue = "%") String nome,
+			@PageableDefault(sort="nome", direction = Direction.ASC, page = 0, size = 5) Pageable pageable){
+		List<ProductDtoResponse> productResponse = productService.findAll(nome, pageable);
 		return ResponseEntity.ok().body(productResponse);
 	}
-	
-	
 	
 	
 	@GetMapping("/{id}")

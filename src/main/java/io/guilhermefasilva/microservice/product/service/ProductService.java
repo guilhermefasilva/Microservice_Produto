@@ -39,17 +39,8 @@ public class ProductService  {
 			return modelMapper.map(product, ProductDtoResponse.class);
 	}
 	
-	public List<ProductDtoResponse> findAll(Pageable pageable){
-		Page<Product> productPage = productRepository.findAll(pageable);
-		 List<Product> product = productPage.getContent();
-		 return product.stream()
-				 .map(p -> modelMapper.map(p, ProductDtoResponse.class))
-				 .collect(Collectors.toList()); 
-	}
-	
-	
-	//tratar excessões
-	public List<ProductDtoResponse> findByName(String nome, Pageable pageable){
+		
+	public List<ProductDtoResponse> findAll(String nome, Pageable pageable){
 		Page<Product> productPage = productRepository.findByNome(nome, pageable);
 		List<Product> product =  productPage.getContent();
 		return product.stream()
