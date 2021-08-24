@@ -1,6 +1,6 @@
 package io.guilhermefasilva.microservice.product.configuration;
 
-import javax.validation.Validator;
+import java.util.Locale;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -16,17 +16,20 @@ public class MessageConfig {
 	@Bean
 	public MessageSource messageSource() {
 		ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-		messageSource.setBasename("classpath:messages");
-		messageSource.setDefaultEncoding("UTF-8");
-		return messageSource();
+		messageSource.setBasename("classpath:message");
+		messageSource.setDefaultEncoding("utf-8");
+		messageSource.setDefaultLocale(Locale.ROOT);
+		return messageSource;
 	}
 
 	@Bean
-	public Validator getvalidador() {
+	public LocalValidatorFactoryBean getvalidador(MessageSource messageSource) {
 		LocalValidatorFactoryBean bean = new LocalValidatorFactoryBean();
-		bean.setValidationMessageSource(messageSource());
+		bean.setValidationMessageSource(messageSource);
 		return bean;
 	}
+	
+
 	
 	
 }

@@ -1,5 +1,7 @@
 package io.guilhermefasilva.microservice.product.domain.dto;
 
+import javax.validation.constraints.NotEmpty;
+
 import com.sun.istack.NotNull;
 
 import io.swagger.annotations.ApiModelProperty;
@@ -12,7 +14,7 @@ public class ProductDtoRequestUpdate {
 	
 
 	@ApiModelProperty(notes ="Descrição do produto",example = "Teclado sem fio com pilhas recarregaveis", required = true)
-	@NotNull
+	@NotEmpty(message = "{field.not.empty}")
 	private String descricao;
 		
 }

@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -28,19 +29,19 @@ public class Product implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotNull(message = "{$name.notEmpty}")
+	@NotEmpty(message = "{field.not.empty}")
 	@Size(max = 30)
 	private String nome;
 	
-	@NotNull(message = "Campo não pode ser nulo")
-	@Size(min = 2, max = 30)
+	@NotNull(message = "{field.not.null}")
+	@Size(max = 30, message = "{field.size.max.30}")
 	private String marca;
 	
-	@NotNull(message = "Campo não pode ser nulo")
-	@Size(min = 8, max= 80)
+	@NotEmpty(message = "{field.not.empty}")
+	@Size(max= 80, message = "{field.size.max.80}")
 	private String descricao;
 	
-	@NotNull(message = "Campo não pode ser nulo")
+	@NotNull(message = "field.not.null")
 	private BigDecimal preco;
 	
 	

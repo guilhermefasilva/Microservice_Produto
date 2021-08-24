@@ -15,18 +15,19 @@ public class ProductDtoRequest  {
 	
 	
 	@ApiModelProperty(notes = "Nome do Produto",example =  "Mouse",required = true)
-	@NotEmpty(message = "{name.notEmpty}")
+	@NotEmpty(message = "{field.not.empty}")
 	private String nome;
 	
 	@ApiModelProperty(notes="Marca do Produto", example = "LogginTech", required = true)
-	@NotNull
+	@NotNull(message = "{field.not.null}")
 	private String marca;
 	
 	@ApiModelProperty(notes ="Descrição do produto", example = "Mouse com fio USB 2.0")
+	@NotEmpty(message = "{field.not.empty}")
 	private String descricao;
 	
 	@ApiModelProperty(notes = "Preço do produto", example = "80.00", required = true)
-	@NotNull
+	@NotNull(message = "{field.not.null}")
 	private BigDecimal preco;
 	
 	
