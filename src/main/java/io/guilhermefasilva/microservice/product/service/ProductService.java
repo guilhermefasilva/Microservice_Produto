@@ -17,6 +17,7 @@ import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
 import io.guilhermefasilva.microservice.product.domain.models.Product;
 import io.guilhermefasilva.microservice.product.exception.ResourceNotFoundException;
 import io.guilhermefasilva.microservice.product.repository.ProductRepository;
+import io.guilhermefasilva.microservice.product.sender.ProductDeletedQueueSender;
 
 @Service
 public class ProductService  {
@@ -26,7 +27,7 @@ public class ProductService  {
 	private ProductRepository productRepository;
 	
 	@Autowired
-	private RabbitMqService rabbitmqService;
+	private ProductDeletedQueueSender rabbitmqDeleteQueueSender;
 	
 	@Autowired
 	private ModelMapper modelMapper;
@@ -56,9 +57,6 @@ public class ProductService  {
 				.collect(Collectors.toList());
 	}
 	
-	
-	
-	
 	public ProductDtoResponse findById(Long id) {
 		Product product = productRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException(id));
@@ -80,7 +78,7 @@ public class ProductService  {
 		Product produto = productRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException(id));
 		this.productRepository.delete(produto);
-		this.rabbitmqService.sendMessage(produto);
+		this.rabbitmqDeleteQueueSender.sendMessage(produto);
 		
 	}
 	

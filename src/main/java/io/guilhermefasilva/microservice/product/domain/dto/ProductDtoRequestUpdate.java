@@ -2,8 +2,6 @@ package io.guilhermefasilva.microservice.product.domain.dto;
 
 import javax.validation.constraints.NotEmpty;
 
-import com.sun.istack.NotNull;
-
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;

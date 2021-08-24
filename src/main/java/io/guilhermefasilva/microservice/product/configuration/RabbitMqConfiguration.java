@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMqConfiguration {
 	
 	
-	@Value("${spring.rabbitmq.queue}")
+	@Value("${product.deleted.queue}")
 	private String nomeQueue;
 			
-	@Value("${spring.rabbitmq.exchange}")
+	@Value("${product.deleted.exchange}")
 	private String nameExchange;
 	
 	@Autowired
