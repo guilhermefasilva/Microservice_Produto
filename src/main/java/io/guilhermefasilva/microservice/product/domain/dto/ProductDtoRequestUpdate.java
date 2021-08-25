@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 public class ProductDtoRequestUpdate {
 	
 
-	@ApiModelProperty(notes ="Descrição do produto",example = "Teclado sem fio com pilhas recarregaveis", required = true)
+	@ApiModelProperty(value ="Descrição do produto",example = "Teclado sem fio com pilhas recarregaveis", required = true)
 	@NotEmpty(message = "{field.not.empty}")
 	private String descricao;
 		

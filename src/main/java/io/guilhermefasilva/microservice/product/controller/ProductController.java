@@ -49,11 +49,10 @@ public class ProductController {
 					.buildAndExpand(produtoResponse.getId()).toUri();
 		return ResponseEntity.created(uri).body(produtoResponse);
 	}
-	
+	 
 	@GetMapping
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
-			@ApiResponse(code = 404, message = "Recurso não encontrado"),
 			@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	public ResponseEntity<List<ProductDtoResponse>> getAll(@RequestParam(required = false, defaultValue = "%") String nome,
 			@PageableDefault(sort="nome", direction = Direction.ASC, page = 0, size = 5) Pageable pageable){

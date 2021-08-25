@@ -14,13 +14,13 @@ public class ProductDtoResponse {
 	@ApiModelProperty(notes="Id do produto",example = "1")
 	private Long id;
 	
-	@ApiModelProperty(notes="Nome do produto", example ="Teclado Luminoso")
+	@ApiModelProperty(value="Nome do produto", example ="Teclado Luminoso")
 	private String nome;
-	@ApiModelProperty(notes="Marca do produto",example = "Dell")
+	@ApiModelProperty(value="Marca do produto",example = "Dell")
 	private String marca;
-	@ApiModelProperty(notes="Descrição do produto", example = "Teclado sem fio com bateria recarregavel e teclas luminosas")
+	@ApiModelProperty(value="Descrição do produto", example = "Teclado sem fio com bateria recarregavel e teclas luminosas")
 	private String descricao;
-	@ApiModelProperty(notes="Preço do produto",example = "250.00")
+	@ApiModelProperty(value="Preço do produto",example = "250.00")
 	private BigDecimal preco;
 	
 
