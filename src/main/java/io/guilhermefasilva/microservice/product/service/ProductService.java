@@ -58,7 +58,6 @@ public class ProductService  {
 	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate){
 		Product product = productRepository.findById(id)
 				.orElseThrow(()-> new ResourceNotFoundException(id));
-		
 		product.setDescricao(productUpdate.getDescricao());
 		this.productRepository.save(product);
 		return modelMapper.map(product, ProductDtoResponse.class);

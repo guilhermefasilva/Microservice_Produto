@@ -43,8 +43,8 @@ public class ProductController {
 						@ApiResponse(code = 400, message = "Requisição não atendida dados incorretos ou falta informações"),
 						@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
-	public ResponseEntity<ProductDtoResponse> create(@Valid @RequestBody ProductDtoRequest produto){
-			ProductDtoResponse produtoResponse =  productService.save(produto);
+	public ResponseEntity<ProductDtoResponse> create(@Valid @RequestBody ProductDtoRequest produtoRequest){
+			ProductDtoResponse produtoResponse =  productService.save(produtoRequest);
 			URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("{id}")
 					.buildAndExpand(produtoResponse.getId()).toUri();
 		return ResponseEntity.created(uri).body(produtoResponse);
@@ -55,12 +55,11 @@ public class ProductController {
 			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
 			@ApiResponse(code = 404, message = "Recurso não encontrado"),
 			@ApiResponse(code = 500, message = "Sistema indisponivel")})
-	public ResponseEntity<List<ProductDtoResponse>> getByName(@RequestParam(required = false, defaultValue = "%") String nome,
+	public ResponseEntity<List<ProductDtoResponse>> getAll(@RequestParam(required = false, defaultValue = "%") String nome,
 			@PageableDefault(sort="nome", direction = Direction.ASC, page = 0, size = 5) Pageable pageable){
 		List<ProductDtoResponse> productResponse = productService.findAll(nome, pageable);
 		return ResponseEntity.ok().body(productResponse);
 	}
-	
 	
 	@GetMapping("/{id}")
 	@ApiOperation(value = "Exibe um produto atraves de um id válido")
@@ -95,7 +94,7 @@ public class ProductController {
 						@ApiResponse(code = 404, message = "Produto não encontrado"),
 						@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
-	public ResponseEntity<?> delete(@PathVariable Long id){
+	public ResponseEntity<?> delete(@Valid @PathVariable Long id){
 		productService.delete(id);
 		return ResponseEntity.noContent().build();
 	}
