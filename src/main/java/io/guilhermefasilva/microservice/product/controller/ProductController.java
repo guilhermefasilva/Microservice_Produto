@@ -51,6 +51,7 @@ public class ProductController {
 	}
 	 
 	@GetMapping
+	@ApiOperation(value = "Realiza exibição de produtos com filtros e paginação")
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Requisição bem sucedida"),
 			@ApiResponse(code = 500, message = "Sistema indisponivel")})
