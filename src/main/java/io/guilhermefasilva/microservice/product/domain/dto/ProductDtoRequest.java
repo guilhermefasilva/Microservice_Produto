@@ -14,19 +14,19 @@ import lombok.NoArgsConstructor;
 public class ProductDtoRequest  {
 	
 	
-	@ApiModelProperty(value = "Nome do Produto não pode ser nulo",example =  "Mouse",required = true)
+	@ApiModelProperty(value = "Nome do Produto não pode fica em branco",example =  "Mouse",required = true)
 	@NotEmpty(message = "{field.name.not.empty}")
 	private String nome;
 	
-	@ApiModelProperty(value="Marca do Produto", example = "LogginTech", required = true)
+	@ApiModelProperty(value="Marca do Produto deve ser preenchida corretamente", example = "LogginTech", required = true)
 	@NotEmpty(message = "{field.marca.not.empty}")
 	private String marca;
 	
-	@ApiModelProperty(value ="Descrição do produto", example = "Mouse com fio USB 2.0")
+	@ApiModelProperty(value ="Descrição do produto não pode ficar em branco", example = "Mouse com fio USB 2.0", required=true)
 	@NotEmpty(message = "{field.descricao.not.empty}")
 	private String descricao;
 	
-	@ApiModelProperty(value = "Preço do produto", example = "80.00", required = true)
+	@ApiModelProperty(value = "Preço do produto, preço unitário do produto", example = "80.00", required = true)
 	@NotNull(message = "{field.preco.not.null}")
 	private BigDecimal preco;
 	
