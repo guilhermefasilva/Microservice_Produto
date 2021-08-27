@@ -81,8 +81,8 @@ public class ProductController {
 					@ApiResponse(code = 404, message = "Produto não encontrado"),
 					@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
-	public ResponseEntity<ProductDtoResponse> update(@Valid @PathVariable Long id,
-			@RequestBody ProductDtoRequestUpdate productUpdate){
+	public ResponseEntity<ProductDtoResponse> update(@PathVariable Long id,
+			@RequestBody  @Valid ProductDtoRequestUpdate productUpdate){
 		ProductDtoResponse productResponse = productService.update(id, productUpdate);
 		return ResponseEntity.ok().body(productResponse);
 		
@@ -94,7 +94,7 @@ public class ProductController {
 						@ApiResponse(code = 404, message = "Produto não encontrado"),
 						@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
-	public ResponseEntity<?> delete(@Valid @PathVariable Long id){
+	public ResponseEntity<?> delete(@PathVariable Long id){
 		productService.delete(id);
 		return ResponseEntity.noContent().build();
 	}

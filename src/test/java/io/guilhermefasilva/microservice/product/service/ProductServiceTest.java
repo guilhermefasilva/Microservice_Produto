@@ -79,7 +79,7 @@ class ProductServiceTest {
 		when(productRepository.findById((Long) any())).thenReturn(product);
 		
 		//Ação
-		this.productService.findById(1L);
+		this.productService.findById(any());
 		
 		//verificação
 		verify(this.productRepository, times(1)).findById((Long)any());
@@ -93,7 +93,7 @@ class ProductServiceTest {
 		when(productRepository.save((Product) any())).thenReturn(produto);
 		
 		//ação
-		this.productService.update(1L, productUpdate);
+		this.productService.update(any(), productUpdate);
 		
 		//verificação
 		verify(this.productRepository, times(1)).save((Product) any());
@@ -121,7 +121,7 @@ class ProductServiceTest {
 		doNothing().when(productRepository).delete((Product)any());
 		
 		//ação
-		this.productService.delete(1L);
+		this.productService.delete(any());
 		this.rabbitDeleteQueue.sendMessage(productOptional);
 		
 		//verify
