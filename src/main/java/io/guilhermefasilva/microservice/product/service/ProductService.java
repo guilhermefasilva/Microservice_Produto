@@ -71,5 +71,6 @@ public class ProductService  {
 		this.rabbitmqDeleteQueueSender.sendMessage(produto);
 		
 	}
+	
 	 
 }
