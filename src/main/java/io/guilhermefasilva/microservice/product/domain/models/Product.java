@@ -3,7 +3,6 @@ package io.guilhermefasilva.microservice.product.domain.models;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -16,7 +15,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
 @Table(name = "tb_product")
 public class Product implements Serializable {
 	

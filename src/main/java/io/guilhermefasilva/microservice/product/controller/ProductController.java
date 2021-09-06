@@ -99,16 +99,6 @@ public class ProductController {
 		return ResponseEntity.noContent().build();
 	}
 
-	@GetMapping("product/{id}")
-	@ApiOperation(value = "Exibe um id de Produto válido")
-	@ApiResponses(value= {
-				@ApiResponse(code = 200, message = "Requisição bem sucedida"),
-				@ApiResponse(code = 400, message = "Requisição não atendida, dados incorretos ou falta informações"),
-				@ApiResponse(code = 404, message = "Produto não encontrado")})
 	
-	public ResponseEntity<Long> getByIdProduct(@PathVariable Long id){
-		ProductDtoResponse productResponse = productService.findById(id);
-		return ResponseEntity.ok().body(productResponse.getId());
-	}
 	
 }
