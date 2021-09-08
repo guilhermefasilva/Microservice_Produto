@@ -4,7 +4,6 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -17,7 +16,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.modelmapper.ModelMapper;
-import org.springframework.data.domain.Page;
 
 import io.guilhermefasilva.feature.ScenarioFactory;
 import io.guilhermefasilva.microservice.product.domain.models.Product;
@@ -65,7 +63,7 @@ public class ProductServiceTest {
 			
 			this.productService.findById(1L);
 			
-			verify(this.productRepository, times(1)).findById(any());
+			verify(this.productRepository, times(1)).findById(1L);
 		}
 		
 		
@@ -77,7 +75,6 @@ public class ProductServiceTest {
 				
 			Optional<Product> products = Optional.of(product);
 			when(productRepository.findById(eq(product.getId()))).thenReturn(products);
-			when(productRepository.save(any(Product.class))).thenReturn(product);
 
 			this.productService.update(1L, productUpdate);
 
@@ -90,13 +87,15 @@ public class ProductServiceTest {
 		@Test
 		public void findAll_ProductAllList_ExpectedSucess() {
 			
-			Page<Product> productPage = ScenarioFactory.newPageProduct();
+			var peageble = ScenarioFactory.newPageable();
+			var productPage = ScenarioFactory.newPage();
+			String nome= "teste";
 			
-			when(this.productRepository.findByNome(any(), any())).thenReturn(productPage);
+			when(this.productRepository.findByNome(nome, peageble)).thenReturn(productPage);
 
-			this.productService.findAll(any(),any());
+			this.productService.findAll(nome, peageble);
 
-			verify(this.productRepository, times(1)).findByNome(any(), any());
+			verify(this.productRepository, times(1)).findByNome(nome, peageble);
 			
 		}
 		
@@ -106,40 +105,37 @@ public class ProductServiceTest {
 			
 			Optional<Product> products = Optional.of(product);
 			when(productRepository.findById(eq(product.getId()))).thenReturn(products);
-			doNothing().when(productRepository).delete(any(Product.class));
 
 			this.productService.delete(1L);
 			this.rabbitDeleteQueue.sendMessage(products);
 
-			verify(this.productRepository, times(1)).delete(any(Product.class));
+			verify(this.productRepository, times(1)).delete(product);
 			verify(this.rabbitDeleteQueue, times(1)).sendMessage(products);
 		}
 		
 		@Test
 		public void delete_ProductDeleteNotFindById_ExpectedThrownException() {
 				var product = ScenarioFactory.newProduct();		
-				given(productRepository.findById(eq(product.getId()))).willThrow(ResourceNotFoundException.class);
-				doNothing().when(productRepository).delete(any(Product.class));
+				given(productRepository.findById(eq(product.getId()))).willReturn(Optional.empty());
 				
-				
-		   assertThatThrownBy(()-> productService.delete(any()))
+		   assertThatThrownBy(()-> productService.delete(2L))
 				   				.isInstanceOf(ResourceNotFoundException.class)
 								.hasMessageContaining("Resource not found. Id:", product.getId());
 
-			verify(this.productRepository, times(1)).findById(any());
+			verify(this.productRepository, times(1)).findById(2L);
 		}
 		
 		
 		@Test
 		public void findById_ProductNotFindById_ExpectedThrownException() {
 				var product = ScenarioFactory.newProduct();
-			when(productRepository.findById(eq(product.getId()))).thenThrow(ResourceNotFoundException.class);
+			when(productRepository.findById(eq(product.getId()))).thenReturn(Optional.empty());
 
 			assertThatThrownBy(()->productService.findById(2L))
 								.isInstanceOf(ResourceNotFoundException.class)
 								.hasMessageContaining("Resource not found. Id:", product.getId());
 
-			verify(this.productRepository, times(1)).findById(any());
+			verify(this.productRepository, times(1)).findById(2L);
 								
 		}
 		
@@ -147,14 +143,13 @@ public class ProductServiceTest {
 		public void update_ProductUpdateNotFindById_ExpectedThrownException() {
 			var product = ScenarioFactory.newProduct();	
 			var productUpdate = ScenarioFactory.newProductUpdate();
+			given(productRepository.findById(eq(product.getId()))).willReturn(Optional.empty());
 			
-			when(productRepository.findById(2L)).thenThrow(ResourceNotFoundException.class);
-
-			assertThatThrownBy(()->productService.update(any(), productUpdate))
+			assertThatThrownBy(()->productService.update(2L, productUpdate))
 								.isInstanceOf(ResourceNotFoundException.class)
 								.hasMessageContaining("Resource not found. Id:", product.getId());
 
-			verify(this.productRepository, times(1)).findById(any());
+			verify(this.productRepository, times(1)).findById(2L);
 			
 		}
 }

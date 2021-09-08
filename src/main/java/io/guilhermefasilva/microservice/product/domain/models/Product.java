@@ -1,8 +1,8 @@
 package io.guilhermefasilva.microservice.product.domain.models;
 
-import java.io.Serializable;
 import java.math.BigDecimal;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -16,12 +16,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "tb_product")
-public class Product implements Serializable {
+@Entity
+public class Product {
 	
-	private static final long serialVersionUID = 1L;
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	private String nome;
