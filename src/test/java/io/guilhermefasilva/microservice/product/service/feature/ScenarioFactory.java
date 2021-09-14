@@ -1,4 +1,4 @@
-package io.guilhermefasilva.microservice.product.feature;
+package io.guilhermefasilva.microservice.product.service.feature;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,12 +12,8 @@ import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequestUpda
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
 import io.guilhermefasilva.microservice.product.domain.models.Product;
 
-
-
-
-
 public class ScenarioFactory {
-
+	
 	public static Product newProduct() {
 		Product product = new Product();
 		product.setId(1L);

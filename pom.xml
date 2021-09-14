@@ -45,7 +45,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -55,10 +54,13 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<scope>test</scope>
 		</dependency>
 
-
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -116,6 +118,11 @@
 			</plugin>
 
 			<plugin>
+				<groupId> org.apache.maven.plugins </groupId>
+				<artifactId> maven-surefire-plugin </artifactId>
+			</plugin>
+
+			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.7</version>
@@ -126,17 +133,22 @@
 						<exclude>**/*/configuration/**</exclude>
 						<exclude>**/*/exception/**</exclude>
 						<exclude>**/*/sender/**</exclude>
+						<exclude>**/*/controller/**</exclude>
 					</excludes>
+					
+
 				</configuration>
 
 				<executions>
 					<execution>
 						<id>jacoco-initialize</id>
+
 						<goals>
 							<goal>prepare-agent</goal>
 							<goal>report</goal>
 							<goal>check</goal>
 						</goals>
+
 						<configuration>
 							<rules>
 								<rule>
