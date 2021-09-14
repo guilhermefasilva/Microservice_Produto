@@ -1,4 +1,4 @@
-package io.guilhermefasilva.feature;
+package io.guilhermefasilva.microservice.product.feature;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,17 +27,19 @@ public class ScenarioFactory {
 	public static ProductDtoRequest newProductRequest() {
 		return new ProductDtoRequest();
 	}
+	public static ProductDtoResponse newProductDtoResponse() {
+		
+		return new ProductDtoResponse(); 
+	}
 
 	public static ProductDtoRequestUpdate newProductUpdate() {
 		return new ProductDtoRequestUpdate();
 	}
 
-	public static ProductDtoResponse newProductDtoResponse() {
-		return new ProductDtoResponse();
-	}
+	
 	
 	public static Pageable newPageable(){
-		Pageable peageble = Pageable.ofSize(10);
+		Pageable peageble = Pageable.ofSize(10); 
 		return peageble;
 	}
 	

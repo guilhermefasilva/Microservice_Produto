@@ -17,9 +17,9 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.modelmapper.ModelMapper;
 
-import io.guilhermefasilva.feature.ScenarioFactory;
 import io.guilhermefasilva.microservice.product.domain.models.Product;
 import io.guilhermefasilva.microservice.product.exception.ResourceNotFoundException;
+import io.guilhermefasilva.microservice.product.feature.ScenarioFactory;
 import io.guilhermefasilva.microservice.product.repository.ProductRepository;
 import io.guilhermefasilva.microservice.product.sender.ProductDeletedQueueSender;
 @RunWith(MockitoJUnitRunner.class)
@@ -33,9 +33,9 @@ public class ProductServiceTest {
 		@Mock
 		private ProductRepository productRepository;
 		
+		
 		@Mock
 		private ModelMapper modelMapper;
-		
 		
 		@Mock
 		private ProductDeletedQueueSender rabbitDeleteQueue;
@@ -43,9 +43,9 @@ public class ProductServiceTest {
 		
 		
 		@Test
-		public void save_SaveSProduct_ExpectedSucess() {
+		public void save_SaveSProduct_ExpectedSucess() { 
 			var product = ScenarioFactory.newProduct();
-			var productRequest = ScenarioFactory.newProductRequest();
+			var productRequest = ScenarioFactory.newProductRequest();  
 			var productResponse = ScenarioFactory.newProductDtoResponse();
 			
 			    given(productRepository.save(product)).willReturn(product);
@@ -89,7 +89,7 @@ public class ProductServiceTest {
 			
 			var peageble = ScenarioFactory.newPageable();
 			var productPage = ScenarioFactory.newPage();
-			String nome= "teste";
+			var nome= "teste";
 			
 			when(this.productRepository.findByNome(nome, peageble)).thenReturn(productPage);
 
@@ -116,7 +116,7 @@ public class ProductServiceTest {
 		@Test
 		public void delete_ProductDeleteNotFindById_ExpectedThrownException() {
 				var product = ScenarioFactory.newProduct();		
-				given(productRepository.findById(eq(product.getId()))).willReturn(Optional.empty());
+				 given(productRepository.findById(eq(product.getId()))).willReturn(Optional.empty());
 				
 		   assertThatThrownBy(()-> productService.delete(2L))
 				   				.isInstanceOf(ResourceNotFoundException.class)
@@ -129,7 +129,7 @@ public class ProductServiceTest {
 		@Test
 		public void findById_ProductNotFindById_ExpectedThrownException() {
 				var product = ScenarioFactory.newProduct();
-			when(productRepository.findById(eq(product.getId()))).thenReturn(Optional.empty());
+				when(productRepository.findById(eq(product.getId()))).thenReturn(Optional.empty());
 
 			assertThatThrownBy(()->productService.findById(2L))
 								.isInstanceOf(ResourceNotFoundException.class)
