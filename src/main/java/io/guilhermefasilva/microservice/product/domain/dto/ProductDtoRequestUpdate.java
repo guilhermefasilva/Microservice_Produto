@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 public class ProductDtoRequestUpdate {
 	
 
-	@ApiModelProperty(value ="Descrição do produto não pode ficar em branco ou vazio",example = "Teclado sem fio com pilhas recarregaveis", required = true)
+	@ApiModelProperty(value ="Descrição do produto não pode ficar em branco ou vazio",example = "Embalagem com 20 comprimidos", required = true)
 	@NotEmpty(message = "{field.descricao.not.empty}")
 	@NotBlank(message = "{field.descricao.not.blank}")
 	private String descricao;

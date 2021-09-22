@@ -51,7 +51,8 @@ public class ResourceExceptionHandler extends ResponseEntityExceptionHandler {
 		for (ObjectError err : ex.getBindingResult().getAllErrors()) {
 			errors.add(err.getDefaultMessage());
 		}
-		MessageError messageError = new MessageError("Erro de Validação de Campos", errors);
+		var msgDetails = "Erro de Validação de Campos";
+		MessageError messageError = new MessageError(msgDetails, errors);
 		return new ResponseEntity<>(messageError, HttpStatus.BAD_REQUEST);
 		
 	}

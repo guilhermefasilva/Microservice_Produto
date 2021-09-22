@@ -13,4 +13,5 @@ public class MessageError {
 	
 	private String error;
 	private List<String> details;
+	
 }

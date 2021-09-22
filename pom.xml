@@ -51,10 +51,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>org.junit.vintage</groupId>
@@ -132,10 +129,8 @@
 						<exclude>**/*/domain/**</exclude>
 						<exclude>**/*/configuration/**</exclude>
 						<exclude>**/*/exception/**</exclude>
-						<exclude>**/*/sender/**</exclude>
 						<exclude>**/*/controller/**</exclude>
 					</excludes>
-					
 
 				</configuration>
 
@@ -152,7 +147,7 @@
 						<configuration>
 							<rules>
 								<rule>
-									<element>PACKAGE</element>
+									<element>CLASS</element>
 									<limits>
 										<limit>
 											<counter>LINE</counter>

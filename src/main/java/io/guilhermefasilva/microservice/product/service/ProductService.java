@@ -35,8 +35,8 @@ public class ProductService  {
 	@Transactional
 	public ProductDtoResponse save(ProductDtoRequest productDtoRequest) {
 		Product product = modelMapper.map(productDtoRequest, Product.class); 
-				productRepository.save(product);
-			return modelMapper.map(product, ProductDtoResponse.class);
+				var productSaved = productRepository.save(product);
+			return modelMapper.map(productSaved, ProductDtoResponse.class);
 	}
 	
 		
