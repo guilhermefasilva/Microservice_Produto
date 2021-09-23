@@ -72,6 +72,5 @@ public class ScenarioFactory {
 	public static Optional<Product> newOptionalProduct(){
 		return Optional.of(newProduct());
 	}
-	
 
 }

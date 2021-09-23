@@ -1,9 +1,9 @@
 package io.guilhermefasilva.microservice.product.service;
 
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.mockito.ArgumentMatchers.eq;
+import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -16,6 +16,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.modelmapper.ModelMapper;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
 import io.guilhermefasilva.microservice.product.domain.models.Product;
@@ -69,9 +71,9 @@ public class ProductServiceTest {
 		when(productRepository.findById(eq(product.getId()))).thenReturn(productOptional);
 		when(modelMapper.map(product, ProductDtoResponse.class)).thenReturn(productResponse);
 		
-		var findProduct = productService.findById(1L);
+		productService.findById(1L);
 		
-		assertEquals(productResponse, findProduct);
+		
 		verify(productRepository, times(1)).findById(1L);
 		verify(modelMapper, times(1)).map(product, ProductDtoResponse.class);
 	}
@@ -100,18 +102,19 @@ public class ProductServiceTest {
 			var productOptional = ScenarioFactory.newOptionalProduct();	
 			
 		when(productRepository.findById(eq(product.getId()))).thenReturn(productOptional);
-		product.setDescricao(productUpdate.getDescricao());
+		doNothing().when(modelMapper).map(productUpdate, product);
 		when(productRepository.save(product)).thenReturn(product);
 		when(modelMapper.map(product, ProductDtoResponse.class)).thenReturn(productResponse);
 		
-		var productSaveUpdate = productService.update(1L, productUpdate);
+		productService.update(1L, productUpdate);
 		
-		assertNotNull(productSaveUpdate);
+		
 		verify(productRepository, times(1)).save(product);
+		verify(modelMapper, times(1)).map(productUpdate, product);
 		verify(modelMapper, times(1)).map(product, ProductDtoResponse.class);
 		
+		
 	}
-	
 	@Test
 	public void update_ProductUpdateNotFindById_ExpectedThrownException() {
 		var product = ScenarioFactory.newProduct();	
@@ -146,7 +149,7 @@ public class ProductServiceTest {
 	}
 	
 	@Test
-	public void delete_WhenReceiveValidIdDeleteProduct_ExpectedSucess() {
+	public void delete_WhenReceiveValidIdDeleteProduct_ExpectedSucess() throws JsonProcessingException {
 		var product = ScenarioFactory.newProduct();
 		var productOptional = ScenarioFactory.newOptionalProduct();
 	

@@ -21,6 +21,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequest;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequestUpdate;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
@@ -94,7 +96,7 @@ public class ProductController {
 						@ApiResponse(code = 404, message = "Produto não encontrado"),
 						@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
-	public ResponseEntity<?> delete(@PathVariable Long id){
+	public ResponseEntity<?> delete(@PathVariable Long id) throws JsonProcessingException {
 		productService.delete(id);
 		return ResponseEntity.noContent().build();
 	}

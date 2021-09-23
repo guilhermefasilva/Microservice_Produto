@@ -11,6 +11,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequest;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoRequestUpdate;
 import io.guilhermefasilva.microservice.product.domain.dto.ProductDtoResponse;
@@ -58,13 +60,13 @@ public class ProductService  {
 	public ProductDtoResponse update(Long id, ProductDtoRequestUpdate productUpdate){
 		Product product = productRepository.findById(id)
 				.orElseThrow(()-> new ResourceNotFoundException(id));
-		product.setDescricao(productUpdate.getDescricao());
+		modelMapper.map(productUpdate, product);
 		this.productRepository.save(product);
 		return modelMapper.map(product, ProductDtoResponse.class);
 	}
 	
 	@Transactional
-	public void delete(Long id) {
+	public void delete(Long id) throws JsonProcessingException{
 		Product produto = productRepository.findById(id)
 				.orElseThrow(() -> new ResourceNotFoundException(id));
 		this.productRepository.delete(produto);

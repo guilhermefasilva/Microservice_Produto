@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.guilhermefasilva.microservice.product.domain.models.Product;
+
 
 @Service
 public class ProductDeletedQueueSender {
@@ -21,17 +23,14 @@ public class ProductDeletedQueueSender {
 		@Value("${product.deleted.queue}")
 		private String nameQueue;
 		
-		public void sendMessage(Object message) {	
-				try {
-					String messageJson = new ObjectMapper().writeValueAsString(message);
-					Message messageSender = MessageBuilder
-							.withBody(messageJson.getBytes())
-							.setContentType(MessageProperties.CONTENT_TYPE_JSON)
-							.build();
-					this.rabbitTemplate.convertAndSend(this.nameQueue, messageSender);
-				}catch (JsonProcessingException e) {
-						e.printStackTrace();
-				}	
+		public void sendMessage(Product productMessage) throws JsonProcessingException {	
+				
+						String messageJson = new ObjectMapper().writeValueAsString(productMessage);
+						Message messageSender = MessageBuilder
+								.withBody(messageJson.getBytes())
+								.setContentType(MessageProperties.CONTENT_TYPE_JSON)
+								.build();
+						this.rabbitTemplate.convertAndSend(this.nameQueue, messageSender);
 		}
 		
 }
