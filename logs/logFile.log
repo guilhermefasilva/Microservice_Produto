@@ -1,0 +1,1537 @@
+29-09-2021 09:12:10.471 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 14132 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 09:12:10.472 [restartedMain] [DEBUG] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+29-09-2021 09:12:10.472 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 09:12:14.566 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 4.43 seconds (JVM running for 5.536)
+29-09-2021 09:12:47.446 [http-nio-9000-exec-1] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=62, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 09:12:47.459 [http-nio-9000-exec-1] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - ProductDtoResponse(id=62, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 09:13:20.445 [http-nio-9000-exec-3] [ERROR] io.guilhermefasilva.microservice.product.exception.handler.ResourceExceptionHandler - 2021-09-29T12:13:20.445280500Z Resource Not Found 404
+29-09-2021 09:24:18.267 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 13748 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 09:24:18.268 [restartedMain] [DEBUG] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+29-09-2021 09:24:18.268 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 09:24:22.313 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 4.381 seconds (JVM running for 5.419)
+29-09-2021 09:24:32.067 [http-nio-9000-exec-1] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=63, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 09:24:32.083 [http-nio-9000-exec-1] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - ProductDtoResponse(id=63, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 09:25:12.473 [http-nio-9000-exec-3] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=62, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 09:35:21.789 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 13748 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 09:35:21.789 [restartedMain] [DEBUG] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Running with Spring Boot v2.5.4, Spring v5.3.9
+29-09-2021 09:35:21.790 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 09:35:22.845 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 1.083 seconds (JVM running for 665.951)
+29-09-2021 09:36:48.202 [http-nio-9000-exec-2] [ERROR] io.guilhermefasilva.microservice.product.exception.handler.ResourceExceptionHandler - 2021-09-29T12:36:48.202561200Z Resource Not Found 404
+29-09-2021 09:38:58.683 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 13748 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 09:38:58.683 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 09:38:59.753 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 1.1 seconds (JVM running for 882.858)
+29-09-2021 09:53:39.225 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 13748 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 09:53:39.225 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 09:53:40.092 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.893 seconds (JVM running for 1764.543)
+29-09-2021 09:54:07.513 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=64, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 09:54:07.520 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - ProductDtoResponse(id=64, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 10:08:35.305 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 8892 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:08:35.306 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:08:40.759 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 5.81 seconds (JVM running for 7.095)
+29-09-2021 10:09:44.635 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:09:44.641 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:09:49.933 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 5.654 seconds (JVM running for 6.999)
+29-09-2021 10:11:14.398 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:11:14.398 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:11:15.667 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 1.301 seconds (JVM running for 92.731)
+29-09-2021 10:11:45.082 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:11:45.082 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:11:46.070 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 1.014 seconds (JVM running for 123.135)
+29-09-2021 10:11:51.878 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:11:51.878 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:11:52.833 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.992 seconds (JVM running for 129.898)
+29-09-2021 10:22:10.966 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:22:10.966 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:22:11.822 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.881 seconds (JVM running for 748.887)
+29-09-2021 10:24:47.348 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:24:47.348 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:24:48.160 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.837 seconds (JVM running for 905.225)
+29-09-2021 10:25:18.039 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=65, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 10:25:18.055 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - ProductDtoResponse(id=65, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 10:30:19.786 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=66, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)
+29-09-2021 10:30:45.009 [http-nio-9000-exec-3] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - [Product(id=65, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 10:36:36.311 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:36:36.311 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:36:37.177 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.89 seconds (JVM running for 1614.242)
+29-09-2021 10:36:54.114 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:36:54.114 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:36:54.875 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.786 seconds (JVM running for 1631.938)
+29-09-2021 10:39:06.579 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:39:06.579 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:39:07.619 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 1.061 seconds (JVM running for 1764.673)
+29-09-2021 10:39:21.288 [http-nio-9000-exec-2] [ERROR] io.guilhermefasilva.microservice.product.exception.handler.ResourceExceptionHandler - 2021-09-29T13:39:21.288633100Z Resource Not Found 404
+29-09-2021 10:39:44.018 [http-nio-9000-exec-3] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)
+29-09-2021 10:39:44.019 [http-nio-9000-exec-3] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)
+29-09-2021 10:40:31.182 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:40:31.182 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:40:31.945 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.786 seconds (JVM running for 1848.994)
+29-09-2021 10:40:39.634 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 10:40:39.636 [http-nio-9000-exec-2] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)
+29-09-2021 10:41:15.754 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:41:15.754 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:41:16.530 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.801 seconds (JVM running for 1893.576)
+29-09-2021 10:42:02.270 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 10:42:02.271 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 10:42:03.082 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.832 seconds (JVM running for 1940.125)
+29-09-2021 11:00:08.595 [http-nio-9000-exec-1] [INFO ] io.guilhermefasilva.microservice.product.service.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 11:00:08.597 [http-nio-9000-exec-1] [INFO ] io.guilhermefasilva.microservice.product.controller.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 11:01:41.484 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:01:41.484 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:01:42.426 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.966 seconds (JVM running for 3119.457)
+29-09-2021 11:01:51.238 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:01:51.238 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:01:52.145 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.936 seconds (JVM running for 3129.175)
+29-09-2021 11:02:23.496 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:02:23.496 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:02:24.490 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 1.02 seconds (JVM running for 3161.52)
+29-09-2021 11:02:52.784 [http-nio-9000-exec-2] [INFO ] i.g.microservice.product.service.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 11:02:52.786 [http-nio-9000-exec-2] [INFO ] i.g.m.product.controller.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 11:03:44.814 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:03:44.814 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:03:45.783 [restartedMain] [INFO ] io.guilhermefasilva.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.999 seconds (JVM running for 3242.812)
+29-09-2021 11:04:18.168 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:04:18.168 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:04:19.090 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.946 seconds (JVM running for 3276.12)
+29-09-2021 11:05:17.326 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 11:05:17.327 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 11:07:01.153 [http-nio-9000-exec-5] [INFO ] i.g.m.p.s.ProductService - [Product(id=64, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 11:07:01.160 [http-nio-9000-exec-5] [INFO ] i.g.m.p.c.ProductController - [64]
+29-09-2021 11:07:42.784 [http-nio-9000-exec-6] [ERROR] i.g.m.p.e.h.ResourceExceptionHandler - 2021-09-29T14:07:42.784078100Z Resource Not Found 404
+29-09-2021 11:08:54.033 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:08:54.033 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:08:54.954 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.955 seconds (JVM running for 3551.984)
+29-09-2021 11:09:00.444 [http-nio-9000-exec-2] [ERROR] i.g.m.p.e.h.ResourceExceptionHandler - 2021-09-29T14:09:00.444651700Z Resource Not Found 404 /products/64
+29-09-2021 11:09:57.066 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:09:57.066 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:09:58.079 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 1.044 seconds (JVM running for 3615.109)
+29-09-2021 11:10:01.817 [http-nio-9000-exec-2] [ERROR] i.g.m.p.e.h.ResourceExceptionHandler - [2021-09-29T14:10:01.817220400Z Resource Not Found 404 /products/64]
+29-09-2021 11:14:29.734 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ - 29-09-2021 11:14:29.735 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ - 29-09-2021 11:14:30.552 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.842 seconds (JVM running for 3887.581)
+ - 29-09-2021 11:14:32.955 [http-nio-9000-exec-2] [ERROR] i.g.m.p.e.h.ResourceExceptionHandler - [2021-09-29T14:14:32.955575Z Resource Not Found 404 /products/64]
+ - 29-09-2021 11:25:43.331 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:25:43.331 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:25:44.349 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 1.044 seconds (JVM running for 4561.379)
+29-09-2021 11:34:18.417 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ 29-09-2021 11:34:18.418 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ 29-09-2021 11:34:19.167 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.767 seconds (JVM running for 5076.197)
+ 29-09-2021 11:34:32.187 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ 29-09-2021 11:34:32.187 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ 29-09-2021 11:34:32.924 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.755 seconds (JVM running for 5089.953)
+ 29-09-2021 11:34:40.155 [http-nio-9000-exec-2] [ERROR] i.g.m.p.e.h.ResourceExceptionHandler - [2021-09-29T14:34:40.155399500Z Resource Not Found 404 /products/64]
+ 29-09-2021 11:34:53.523 [http-nio-9000-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=67, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+ 29-09-2021 11:34:53.527 [http-nio-9000-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=67, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+ 29-09-2021 11:35:39.315 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:35:39.315 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:35:40.069 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.773 seconds (JVM running for 5157.098)
+29-09-2021 11:38:46.963  INFO [] [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:38:46.963  INFO [] [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:38:47.691  INFO [] [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.748 seconds (JVM running for 5344.71)
+29-09-2021 11:38:52.990  INFO [] [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=68, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 11:38:52.995  INFO [] [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=68, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 11:39:16.101  INFO [] [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:39:16.102  INFO [] [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:39:16.827  INFO [] [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.745 seconds (JVM running for 5373.843)
+29-09-2021 11:39:22.137  INFO [] [http-nio-9000-exec-2] [INFO ] i.g.microservice.product.service.ProductService - [Product(id=69, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 11:39:22.142  INFO [] [http-nio-9000-exec-2] [INFO ] i.g.m.product.controller.ProductController - [ProductDtoResponse(id=69, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 11:40:24.398 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:40:24.398 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:40:25.159 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 0.779 seconds (JVM running for 5442.17)
+29-09-2021 11:40:33.995 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:40:33.995 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:40:34.693 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.718 seconds (JVM running for 5451.704)
+29-09-2021 11:53:48.799 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:53:48.800 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:53:49.504 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.726 seconds (JVM running for 6246.497)
+29-09-2021 11:54:52.788 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:54:52.788 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:54:52.788 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:54:52.788 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:54:53.054 [restartedMain] [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-09-2021 11:54:53.064 [restartedMain] [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+29-09-2021 11:54:53.147 [restartedMain] [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+29-09-2021 11:54:53.147 [restartedMain] [INFO ] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+29-09-2021 11:54:53.147 [restartedMain] [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+29-09-2021 11:54:53.147 [restartedMain] [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+29-09-2021 11:54:53.164 [restartedMain] [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+29-09-2021 11:54:53.164 [restartedMain] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 374 ms
+29-09-2021 11:54:53.192 [restartedMain] [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+29-09-2021 11:54:53.197 [restartedMain] [INFO ] c.z.h.HikariDataSource - HikariPool-37 - Starting...
+29-09-2021 11:54:53.199 [restartedMain] [INFO ] c.z.h.HikariDataSource - HikariPool-37 - Start completed.
+29-09-2021 11:54:53.200 [restartedMain] [INFO ] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+29-09-2021 11:54:53.228 [restartedMain] [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-09-2021 11:54:53.229 [restartedMain] [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-09-2021 11:54:53.240 [restartedMain] [INFO ] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+29-09-2021 11:54:53.248 [restartedMain] [INFO ] o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#594aa67:0/SimpleConnection@44ac261 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52780]
+29-09-2021 11:54:53.406 [restartedMain] [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+29-09-2021 11:54:53.458 [restartedMain] [INFO ] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+29-09-2021 11:54:53.459 [restartedMain] [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+29-09-2021 11:54:53.500 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.738 seconds (JVM running for 6310.492)
+29-09-2021 11:54:53.500 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.738 seconds (JVM running for 6310.492)
+29-09-2021 11:54:53.501 [restartedMain] [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+29-09-2021 11:55:02.303 [Thread-169] [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-09-2021 11:55:02.304 [Thread-169] [INFO ] c.z.h.HikariDataSource - HikariPool-37 - Shutdown initiated...
+29-09-2021 11:55:02.308 [Thread-169] [INFO ] c.z.h.HikariDataSource - HikariPool-37 - Shutdown completed.
+29-09-2021 11:55:02.390 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:55:02.390 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:55:02.390 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:55:02.390 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:55:02.390 [restartedMain] [DEBUG] o.s.b.SpringApplication - Loading source class io.guilhermefasilva.microservice.product.ApiProdutoApplication
+29-09-2021 11:55:02.391 [restartedMain] [DEBUG] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@199244d
+29-09-2021 11:55:02.655 [restartedMain] [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-09-2021 11:55:02.655 [restartedMain] [DEBUG] o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'io.guilhermefasilva.microservice.product'. Automatic @Repository and @Entity scanning is enabled.
+29-09-2021 11:55:02.663 [restartedMain] [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+29-09-2021 11:55:02.728 [restartedMain] [DEBUG] o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\guilherme.assis\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar
+29-09-2021 11:55:02.728 [restartedMain] [DEBUG] o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\guilherme.assis\.m2\repository\org\springframework\boot\spring-boot\2.5.4\spring-boot-2.5.4.jar
+29-09-2021 11:55:02.728 [restartedMain] [DEBUG] o.s.b.w.e.t.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+29-09-2021 11:55:02.743 [restartedMain] [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+29-09-2021 11:55:02.743 [restartedMain] [INFO ] o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+29-09-2021 11:55:02.743 [restartedMain] [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+29-09-2021 11:55:02.743 [restartedMain] [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.52]
+29-09-2021 11:55:02.760 [restartedMain] [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+29-09-2021 11:55:02.760 [restartedMain] [DEBUG] o.s.b.w.s.c.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+29-09-2021 11:55:02.760 [restartedMain] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 369 ms
+29-09-2021 11:55:02.765 [restartedMain] [DEBUG] o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+29-09-2021 11:55:02.765 [restartedMain] [DEBUG] o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+29-09-2021 11:55:02.765 [restartedMain] [DEBUG] o.s.b.w.s.f.OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
+29-09-2021 11:55:02.765 [restartedMain] [DEBUG] o.s.b.w.s.f.OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+29-09-2021 11:55:02.765 [restartedMain] [DEBUG] o.s.b.w.s.f.OrderedFormContentFilter - Filter 'formContentFilter' configured for use
+29-09-2021 11:55:02.788 [restartedMain] [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+29-09-2021 11:55:02.793 [restartedMain] [INFO ] c.z.h.HikariDataSource - HikariPool-38 - Starting...
+29-09-2021 11:55:02.795 [restartedMain] [INFO ] c.z.h.HikariDataSource - HikariPool-38 - Start completed.
+29-09-2021 11:55:02.795 [restartedMain] [INFO ] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+29-09-2021 11:55:02.825 [restartedMain] [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-09-2021 11:55:02.825 [restartedMain] [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-09-2021 11:55:02.837 [restartedMain] [INFO ] o.s.a.r.c.CachingConnectionFactory - Attempting to connect to: [localhost:5672]
+29-09-2021 11:55:02.844 [restartedMain] [INFO ] o.s.a.r.c.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#29f279a9:0/SimpleConnection@53cb7153 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 52797]
+29-09-2021 11:55:02.960 [restartedMain] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+29-09-2021 11:55:02.995 [restartedMain] [DEBUG] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+29-09-2021 11:55:02.996 [restartedMain] [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+29-09-2021 11:55:02.998 [restartedMain] [DEBUG] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+29-09-2021 11:55:03.006 [restartedMain] [DEBUG] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+29-09-2021 11:55:03.011 [restartedMain] [DEBUG] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+29-09-2021 11:55:03.014 [restartedMain] [DEBUG] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+29-09-2021 11:55:03.049 [restartedMain] [INFO ] o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+29-09-2021 11:55:03.050 [restartedMain] [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+29-09-2021 11:55:03.087 [restartedMain] [DEBUG] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+
+============================
+CONDITIONS EVALUATION REPORT
+============================
+
+
+Positive matches:
+-----------------
+
+   AopAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.auto=true) matched (OnPropertyCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration matched:
+      - @ConditionalOnClass found required class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   BeanValidatorPluginsConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.validation.executable.ExecutableValidator' (OnClassCondition)
+
+   DataSourceAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
+      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceConfiguration.Hikari matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+      - @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceInitializationConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   DataSourceJmxConfiguration matched:
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   DataSourceJmxConfiguration.Hikari matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - Devtools devtools enabled. (OnEnabledDevToolsCondition)
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor matched:
+      - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.orm.jpa.AbstractEntityManagerFactoryBean; SearchStrategy: all) found bean '&entityManagerFactory' (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRegistration' (OnClassCondition)
+      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRegistration' (OnClassCondition)
+      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
+      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+
+   ErrorMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ErrorMvcAutoConfiguration#basicErrorController matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration#errorAttributes matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
+      - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
+      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
+      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   HibernateJpaAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'javax.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor' (OnClassCondition)
+
+   HibernateJpaConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   HttpEncodingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (server.servlet.encoding.enabled) matched (OnPropertyCondition)
+
+   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   HttpMessageConvertersAutoConfiguration#messageConverters matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter' (OnClassCondition)
+
+   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+
+   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
+
+   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
+
+   JacksonAutoConfiguration.ParameterNamesModuleConfiguration#parameterNamesModule matched:
+      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched:
+      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
+      - @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper' (OnBeanCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JdbcTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   JdbcTemplateConfiguration matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   JmxAutoConfiguration#mbeanExporter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#mbeanServer matched:
+      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#objectNamingStrategy matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#entityManagerFactoryBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#jpaVendorAdapter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration#transactionManager matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaBaseConfiguration.JpaWebConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.jpa.open-in-view=true) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JpaRepositoriesAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
+      - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
+      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JtaAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.transaction.Transaction' (OnClassCondition)
+      - @ConditionalOnProperty (spring.jta.enabled) matched (OnPropertyCondition)
+
+   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
+      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration matched:
+      - Initialized Restarter Condition available and initialized (OnInitializedRestarterCondition)
+
+   LocalDevToolsAutoConfiguration.LiveReloadConfiguration matched:
+      - @ConditionalOnProperty (spring.devtools.livereload.enabled) matched (OnPropertyCondition)
+
+   LocalDevToolsAutoConfiguration.LiveReloadConfiguration#liveReloadServer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.livereload.LiveReloadServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration matched:
+      - @ConditionalOnProperty (spring.devtools.restart.enabled) matched (OnPropertyCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration#classPathFileSystemWatcher matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration#classPathRestartStrategy matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.classpath.ClassPathRestartStrategy; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration#conditionEvaluationDeltaLoggingListener matched:
+      - @ConditionalOnProperty (spring.devtools.restart.log-condition-evaluation-delta) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.servlet.multipart.enabled) matched (OnPropertyCondition)
+
+   MultipartAutoConfiguration#multipartConfigElement matched:
+      - @ConditionalOnMissingBean (types: javax.servlet.MultipartConfigElement,org.springframework.web.multipart.commons.CommonsMultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MultipartAutoConfiguration#multipartResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NamedParameterJdbcTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a primary bean from beans 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   OpenApiAutoConfiguration matched:
+      - @ConditionalOnProperty (springfox.documentation.enabled=true) matched (OnPropertyCondition)
+
+   OpenApiControllerWebMvc matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   OpenApiWebMvcConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
+
+   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
+      - @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   RabbitAnnotationDrivenConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.amqp.rabbit.annotation.EnableRabbit' (OnClassCondition)
+
+   RabbitAnnotationDrivenConfiguration#directRabbitListenerContainerFactoryConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.amqp.DirectRabbitListenerContainerFactoryConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAnnotationDrivenConfiguration#simpleRabbitListenerContainerFactory matched:
+      - @ConditionalOnProperty (spring.rabbitmq.listener.type=simple) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (names: rabbitListenerContainerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAnnotationDrivenConfiguration#simpleRabbitListenerContainerFactoryConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.amqp.SimpleRabbitListenerContainerFactoryConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAnnotationDrivenConfiguration.EnableRabbitConfiguration matched:
+      - @ConditionalOnMissingBean (names: org.springframework.amqp.rabbit.config.internalRabbitListenerAnnotationProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.amqp.rabbit.core.RabbitTemplate', 'com.rabbitmq.client.Channel' (OnClassCondition)
+
+   RabbitAutoConfiguration.MessagingTemplateConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.amqp.rabbit.core.RabbitMessagingTemplate' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.amqp.rabbit.core.RabbitMessagingTemplate; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAutoConfiguration.MessagingTemplateConfiguration#rabbitMessagingTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.amqp.rabbit.core.RabbitTemplate; SearchStrategy: all) found a primary bean from beans 'rabbitTemplate' (OnBeanCondition)
+
+   RabbitAutoConfiguration.RabbitConnectionFactoryCreator matched:
+      - @ConditionalOnMissingBean (types: org.springframework.amqp.rabbit.connection.ConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAutoConfiguration.RabbitTemplateConfiguration#amqpAdmin matched:
+      - @ConditionalOnProperty (spring.rabbitmq.dynamic) matched (OnPropertyCondition)
+      - @ConditionalOnSingleCandidate (types: org.springframework.amqp.rabbit.connection.ConnectionFactory; SearchStrategy: all) found a primary bean from beans 'rabbitConnectionFactory'; @ConditionalOnMissingBean (types: org.springframework.amqp.core.AmqpAdmin; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAutoConfiguration.RabbitTemplateConfiguration#rabbitTemplate matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.amqp.rabbit.connection.ConnectionFactory; SearchStrategy: all) found a primary bean from beans 'rabbitConnectionFactory'; @ConditionalOnMissingBean (types: org.springframework.amqp.rabbit.core.RabbitOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RabbitAutoConfiguration.RabbitTemplateConfiguration#rabbitTemplateConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.amqp.RabbitTemplateConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestTemplateAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (RestTemplateAutoConfiguration.NotReactiveWebApplicationCondition)
+
+   RestTemplateAutoConfiguration#restTemplateBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   RestTemplateAutoConfiguration#restTemplateBuilderConfigurer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestTemplateBuilderConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ServletWebServerFactoryAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.servlet.ServletRequest' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer matched:
+      - @ConditionalOnClass found required class 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.application.admin.enabled=true) matched (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#pageableCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringDataWebAutoConfiguration#sortCustomizer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringfoxWebMvcConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   SqlInitializationAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.sql.init.enabled) matched (OnPropertyCondition)
+      - NoneNestedConditions 0 matched 1 did not; NestedCondition on SqlInitializationAutoConfiguration.SqlInitializationModeCondition.ModeIsNever @ConditionalOnProperty (spring.sql.init.mode=never) did not find property 'mode' (SqlInitializationAutoConfiguration.SqlInitializationModeCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   Swagger2ControllerWebMvc matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   Swagger2WebMvcConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   SwaggerUiWebMvcConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (springfox.documentation.swagger-ui.enabled=true) matched (OnPropertyCondition)
+
+   TaskExecutionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
+
+   TaskExecutionAutoConfiguration#applicationTaskExecutor matched:
+      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskExecutionAutoConfiguration#taskExecutorBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TaskSchedulingAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
+
+   TaskSchedulingAutoConfiguration#taskSchedulerBuilder matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
+
+   TransactionAutoConfiguration#platformTransactionManagerCustomizers matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
+      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
+      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration matched:
+      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a primary bean from beans 'transactionManager' (OnBeanCondition)
+
+   TransactionAutoConfiguration.TransactionTemplateConfiguration#transactionTemplate matched:
+      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ValidationAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'javax.validation.executable.ExecutableValidator' (OnClassCondition)
+      - @ConditionalOnResource found location classpath:META-INF/services/javax.validation.spi.ValidationProvider (OnResourceCondition)
+
+   ValidationAutoConfiguration#methodValidationPostProcessor matched:
+      - @ConditionalOnMissingBean (types: org.springframework.validation.beanvalidation.MethodValidationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration#formContentFilter matched:
+      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
+      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
+      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
+      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
+      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   WebMvcRequestHandlerProvider matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration matched:
+      - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'javax.websocket.server.ServerContainer' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration matched:
+      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration#websocketServletWebServerCustomizer matched:
+      - @ConditionalOnMissingBean (names: websocketServletWebServerCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   ActiveMQAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.ConnectionFactory' (OnClassCondition)
+
+   AopAutoConfiguration.AspectJAutoProxyingConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
+
+   AopAutoConfiguration.ClassProxyingConfiguration:
+      Did not match:
+         - @ConditionalOnMissingClass found unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
+
+   ArtemisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.ConnectionFactory' (OnClassCondition)
+
+   AtomikosJtaConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.atomikos.icatch.jta.UserTransactionManager' (OnClassCondition)
+
+   BatchAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+   CacheAutoConfiguration.CacheManagerEntityManagerFactoryDependsOnPostProcessor:
+      Did not match:
+         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+
+   CaffeineCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
+
+   CassandraAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   CassandraReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.cassandra.ReactiveSession' (OnClassCondition)
+
+   CassandraRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
+
+   ClientHttpConnectorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CodecsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   CouchbaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   CouchbaseReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
+
+   CouchbaseRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
+
+   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
+      Did not match:
+         - EmbeddedDataSource spring.datasource.url is set (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
+
+   DataSourceConfiguration.Dbcp2:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourceConfiguration.Generic:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
+
+   DataSourceConfiguration.OracleUcp:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSourceImpl', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourceConfiguration.Tomcat:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration.DifferentCredentialsCondition.DataCredentials @ConditionalOnProperty (spring.datasource.data-username) did not find property 'data-username'; NestedCondition on DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration.DifferentCredentialsCondition.SchemaCredentials @ConditionalOnProperty (spring.datasource.schema-username) did not find property 'schema-username' (DataSourceInitializationConfiguration.InitializationSpecificCredentialsDataSourceInitializationConfiguration.DifferentCredentialsCondition)
+
+   DataSourceInitializationConfiguration.SharedCredentialsDataSourceInitializationConfiguration:
+      Did not match:
+         - DataSource Initialization did not find configured properties spring.datasource.data-username, spring.datasource.schema-password, spring.datasource.schema[0], spring.datasource.data[0], spring.datasource.data, spring.datasource.schema-username, spring.datasource.data-password, spring.datasource.initialization-mode, spring.datasource.schema, spring.datasource.sql-script-encoding, spring.datasource.separator, spring.datasource.platform, spring.datasource.continue-on-error (DataSourceInitializationConfiguration.SharedCredentialsDataSourceInitializationConfiguration.DataSourceInitializationCondition)
+
+   DataSourceJmxConfiguration.TomcatDataSourceJmxConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSourceProxy' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.OracleUcpPoolDataSourceMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSource', 'oracle.jdbc.OracleConnection' (OnClassCondition)
+
+   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
+
+   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration#transactionManager:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager (OnBeanCondition)
+
+   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
+
+   EhCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'net.sf.ehcache.Cache' (OnClassCondition)
+
+   ElasticsearchDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate' (OnClassCondition)
+
+   ElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.Client' (OnClassCondition)
+
+   ElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.RestHighLevelClient' (OnClassCondition)
+
+   EmbeddedLdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.unboundid.ldap.listener.InMemoryDirectoryServer' (OnClassCondition)
+
+   EmbeddedMongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.MongoClientSettings' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
+
+   EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   ErrorWebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   FlywayAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+
+   FreeMarkerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
+
+   GroovyTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
+
+   GsonAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   GsonHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+
+   HazelcastAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HazelcastJpaDependencyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
+
+   HttpHandlerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.DispatcherHandler' (OnClassCondition)
+
+   HypermediaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.EntityModel' (OnClassCondition)
+
+   InfinispanCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
+
+   InfluxDbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.influxdb.InfluxDB' (OnClassCondition)
+
+   IntegrationAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
+
+   JCacheCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
+
+   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
+
+   JdbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
+
+   JerseyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.glassfish.jersey.server.spring.SpringComponentProvider' (OnClassCondition)
+
+   JmsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.jms.Message' (OnClassCondition)
+
+   JndiConnectionFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
+
+   JndiDataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'jndi-name' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+   JndiJtaConfiguration:
+      Did not match:
+         - @ConditionalOnJndi JNDI environment is not available (OnJndiCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.transaction.jta.JtaTransactionManager' (OnClassCondition)
+
+   JooqAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
+
+   JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
+      Did not match:
+         - AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'bootstrap-mode' (JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition)
+
+   JsonbAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   JsonbHttpMessageConvertersConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.json.bind.Jsonb' (OnClassCondition)
+
+   KafkaAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.kafka.core.KafkaTemplate' (OnClassCondition)
+
+   LdapAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ldap.core.ContextSource' (OnClassCondition)
+
+   LdapRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.ldap.repository.LdapRepository' (OnClassCondition)
+
+   LiquibaseAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
+
+   MailSenderAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'javax.mail.internet.MimeMessage' (OnClassCondition)
+
+   MailSenderValidatorAutoConfiguration:
+      Did not match:
+         - @ConditionalOnSingleCandidate did not find required type 'org.springframework.mail.javamail.JavaMailSenderImpl' (OnBeanCondition)
+
+   MessageSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: messageSource; SearchStrategy: current) found beans named messageSource (OnBeanCondition)
+      Matched:
+         - ResourceBundle found bundle URL [file:/C:/Users/guilherme.assis/eclipse-workspace/microservice_produto/target/classes/message.properties] (MessageSourceAutoConfiguration.ResourceBundleCondition)
+
+   MongoAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
+
+   MongoRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
+
+   MustacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
+
+   Neo4jAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jReactiveRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   Neo4jRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
+
+   NettyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.util.NettyRuntime' (OnClassCondition)
+
+   OAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+   OAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.resource.BearerTokenAuthenticationToken' (OnClassCondition)
+
+   OpenApiControllerWebFlux:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   OpenApiWebFluxConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   ProjectInfoAutoConfiguration#buildProperties:
+      Did not match:
+         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
+
+   ProjectInfoAutoConfiguration#gitProperties:
+      Did not match:
+         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
+
+   QuartzAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.quartz.Scheduler' (OnClassCondition)
+
+   R2dbcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcDataAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.r2dbc.core.R2dbcEntityTemplate' (OnClassCondition)
+
+   R2dbcInitializationConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
+
+   R2dbcRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
+
+   R2dbcTransactionManagerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.r2dbc.connection.R2dbcTransactionManager' (OnClassCondition)
+
+   RSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketRequesterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
+
+   RSocketSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.rsocket.core.SecuritySocketAcceptorInterceptor' (OnClassCondition)
+
+   RSocketServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.rsocket.core.RSocketServer' (OnClassCondition)
+
+   RSocketStrategiesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.netty.buffer.PooledByteBufAllocator' (OnClassCondition)
+
+   RabbitAnnotationDrivenConfiguration#directRabbitListenerContainerFactory:
+      Did not match:
+         - @ConditionalOnProperty (spring.rabbitmq.listener.type=direct) did not find property 'type' (OnPropertyCondition)
+
+   ReactiveElasticsearchRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.reactive.ReactiveElasticsearchClient' (OnClassCondition)
+
+   ReactiveElasticsearchRestClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.netty.http.client.HttpClient' (OnClassCondition)
+
+   ReactiveOAuth2ClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   ReactiveOAuth2ResourceServerAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity' (OnClassCondition)
+
+   ReactiveSecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   ReactiveUserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
+
+   ReactiveWebServerFactoryAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   RedisAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.core.RedisOperations' (OnClassCondition)
+
+   RedisCacheConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
+
+   RedisReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
+
+   RedisRepositoriesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
+
+   RemoteDevToolsAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.devtools.remote.secret) did not find property 'secret' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.servlet.Filter', 'org.springframework.http.server.ServerHttpRequest' (OnClassCondition)
+
+   RepositoryRestMvcAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
+
+   Saml2RelyingPartyAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
+
+   SecurityAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
+
+   SecurityFilterAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
+
+   SendGridAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
+
+   ServletWebServerFactoryAutoConfiguration#forwardedHeaderFilter:
+      Did not match:
+         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedJetty:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.webapp.WebAppContext' (OnClassCondition)
+
+   ServletWebServerFactoryConfiguration.EmbeddedUndertow:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
+
+   SessionAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
+
+   SolrAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.apache.solr.client.solrj.impl.CloudSolrClient' (OnClassCondition)
+
+   SpringDataRestConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.core.config.RepositoryRestConfiguration' (OnClassCondition)
+
+   SpringfoxWebFluxConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   Swagger2ControllerWebFlux:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   Swagger2WebFluxConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   SwaggerUiWebFluxConfiguration:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   TaskSchedulingAutoConfiguration#taskScheduler:
+      Did not match:
+         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
+
+   ThymeleafAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring5.SpringTemplateEngine' (OnClassCondition)
+
+   TransactionAutoConfiguration#transactionalOperator:
+      Did not match:
+         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.JdkDynamicAutoProxyConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+   ValidationAutoConfiguration#defaultValidator:
+      Did not match:
+         - @ConditionalOnMissingBean (types: javax.validation.Validator; SearchStrategy: all) found beans of type 'javax.validation.Validator' getvalidador (OnBeanCondition)
+
+   WebClientAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
+
+   WebFluxAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
+
+   WebFluxRequestHandlerProvider:
+      Did not match:
+         - did not find reactive web application classes (OnWebApplicationCondition)
+
+   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
+      Did not match:
+         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
+
+   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
+      Did not match:
+         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
+
+   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
+
+   WebServiceTemplateAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.oxm.Marshaller' (OnClassCondition)
+
+   WebServicesAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
+
+   WebSocketMessagingAutoConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
+
+   WebSocketReactiveAutoConfiguration:
+      Did not match:
+         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
+
+   WebSocketServletAutoConfiguration.Jetty10WebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.websocket.javax.server.internal.JavaxWebSocketServerContainer', 'org.eclipse.jetty.websocket.server.JettyWebSocketServerContainer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.JettyWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.websocket.jsr356.server.deploy.WebSocketServerContainerInitializer' (OnClassCondition)
+
+   WebSocketServletAutoConfiguration.UndertowWebSocketConfiguration:
+      Did not match:
+         - @ConditionalOnClass did not find required class 'io.undertow.websockets.jsr.Bootstrap' (OnClassCondition)
+
+   XADataSourceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.boot.jdbc.XADataSourceWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jdbc.XADataSourceWrapper (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'javax.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
+
+    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+
+    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
+
+    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+
+
+
+29-09-2021 11:55:03.089 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.719 seconds (JVM running for 6320.082)
+29-09-2021 11:55:03.089 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.719 seconds (JVM running for 6320.082)
+29-09-2021 11:55:03.089 [restartedMain] [DEBUG] o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+29-09-2021 11:55:03.091 [restartedMain] [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+29-09-2021 11:55:03.091 [restartedMain] [DEBUG] o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+29-09-2021 11:55:42.461 [File Watcher] [DEBUG] o.s.b.d.r.Restarter - Restarting application
+29-09-2021 11:55:42.463 [Thread-173] [DEBUG] o.s.b.d.r.Restarter - Stopping application
+29-09-2021 11:55:42.463 [Thread-173] [DEBUG] o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+29-09-2021 11:55:42.463 [Thread-173] [DEBUG] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@199244d, started on Wed Sep 29 11:55:02 BRT 2021
+29-09-2021 11:55:42.706 [Thread-173] [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+29-09-2021 11:55:42.707 [Thread-173] [INFO ] c.z.h.HikariDataSource - HikariPool-38 - Shutdown initiated...
+29-09-2021 11:55:42.711 [Thread-173] [INFO ] c.z.h.HikariDataSource - HikariPool-38 - Shutdown completed.
+29-09-2021 11:55:42.771 [Thread-173] [DEBUG] o.s.b.d.r.Restarter - Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4244574e
+29-09-2021 11:55:42.771 [Thread-173] [DEBUG] o.s.b.d.r.Restarter - Starting application io.guilhermefasilva.microservice.product.ApiProdutoApplication with URLs [file:/C:/Users/guilherme.assis/eclipse-workspace/microservice_produto/target/classes/]
+29-09-2021 11:55:42.796 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:55:42.796 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:55:43.514 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.738 seconds (JVM running for 6360.506)
+29-09-2021 11:55:59.524 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:55:59.524 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:56:00.237 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.733 seconds (JVM running for 6377.229)
+29-09-2021 11:59:42.261 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 11:59:42.261 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 11:59:43.008 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.766 seconds (JVM running for 6599.998)
+29-09-2021 12:02:29.147 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 12:02:29.147 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 12:02:30.096 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.978 seconds (JVM running for 6767.087)
+29-09-2021 12:02:43.443 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 12:02:43.443 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 12:02:44.727 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 1.4 seconds (JVM running for 6781.718)
+29-09-2021 01:09:05.160 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:09:05.161 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:09:05.904 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.764 seconds (JVM running for 10762.865)
+29-09-2021 01:15:11.261 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:15:11.261 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:15:11.953 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.714 seconds (JVM running for 11128.914)
+29-09-2021 01:16:29.836 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:16:29.836 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:16:30.524 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.71 seconds (JVM running for 11207.486)
+29-09-2021 01:16:35.480 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=70, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:16:35.483 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=70, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:17:55.666 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:17:55.667 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:17:56.373 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.73 seconds (JVM running for 11293.334)
+29-09-2021 01:18:02.442 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=71, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:18:02.447 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=71, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:21:16.796 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:21:16.797 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:21:17.515 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.74 seconds (JVM running for 11494.476)
+29-09-2021 01:21:30.288 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=72, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:21:30.291 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=72, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:21:58.229 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:21:58.229 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:21:58.943 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.734 seconds (JVM running for 11535.904)
+29-09-2021 01:27:22.038 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:27:22.039 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:27:22.782 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.765 seconds (JVM running for 11859.742)
+29-09-2021 01:27:28.959 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=73, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:27:28.962 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=73, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]
+29-09-2021 01:27:53.968 [http-nio-9000-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=1, nome=Mouse, marca=Dell, descricao=Produto sem estoque, preco=120.00)]
+29-09-2021 01:27:53.968 [http-nio-9000-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=1, nome=Mouse, marca=Dell, descricao=Produto sem estoque, preco=120.00)]
+29-09-2021 01:27:53.980 [http-nio-9000-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=2, nome=Teclado, marca=Dell, descricao=indisponivel no estoque, preco=150.00)]
+29-09-2021 01:27:53.981 [http-nio-9000-exec-4] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=2, nome=Teclado, marca=Dell, descricao=indisponivel no estoque, preco=150.00)]
+29-09-2021 01:27:53.986 [http-nio-9000-exec-5] [ERROR] i.g.m.p.e.h.ResourceExceptionHandler - [2021-09-29T16:27:53.986068400Z Resource Not Found 404 /products/15]
+29-09-2021 01:28:32.076 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:28:32.076 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:28:32.784 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.729 seconds (JVM running for 11929.744)
+29-09-2021 01:29:06.330 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:29:06.330 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:29:07.048 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.738 seconds (JVM running for 11964.008)
+29-09-2021 01:29:36.473 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:29:36.473 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:29:37.168 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.715 seconds (JVM running for 11994.127)
+29-09-2021 01:30:50.492 [http-nio-9000-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=1, nome=Mouse, marca=Dell, descricao=Produto sem estoque, preco=120.00)]
+29-09-2021 01:30:50.494 [http-nio-9000-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=1, nome=Mouse, marca=Dell, descricao=Produto sem estoque, preco=120.00)]
+29-09-2021 01:30:50.502 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=2, nome=Teclado, marca=Dell, descricao=indisponivel no estoque, preco=150.00)]
+29-09-2021 01:30:50.503 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=2, nome=Teclado, marca=Dell, descricao=indisponivel no estoque, preco=150.00)]
+29-09-2021 01:30:50.511 [http-nio-9000-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=2, nome=Teclado, marca=Dell, descricao=indisponivel no estoque, preco=150.00)]
+29-09-2021 01:30:50.511 [http-nio-9000-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=2, nome=Teclado, marca=Dell, descricao=indisponivel no estoque, preco=150.00)]
+29-09-2021 01:32:11.444 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:32:11.444 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:32:12.210 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.787 seconds (JVM running for 12149.17)
+29-09-2021 01:32:19.049 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 01:32:19.052 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 01:33:01.234 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:33:01.234 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:33:01.949 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.733 seconds (JVM running for 12198.908)
+29-09-2021 01:35:02.516 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:35:02.516 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:35:03.200 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.704 seconds (JVM running for 12320.16)
+29-09-2021 01:35:15.569 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:35:15.569 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:35:16.281 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.746 seconds (JVM running for 12333.241)
+29-09-2021 01:35:25.015 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:35:25.016 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:35:25.721 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.726 seconds (JVM running for 12342.681)
+29-09-2021 01:41:29.785 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 4424 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:41:29.785 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:41:30.625 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.862 seconds (JVM running for 12707.575)
+29-09-2021 01:45:12.800 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:45:12.803 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:45:19.541 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 7.486 seconds (JVM running for 8.42)
+29-09-2021 01:48:03.229 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 01:48:03.233 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 01:48:05.602 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.73 seconds (JVM running for 174.478)
+29-09-2021 01:48:15.308 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 01:48:15.341 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 01:49:27.812 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ []29-09-2021 01:49:27.812 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ []29-09-2021 01:49:30.411 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.957 seconds (JVM running for 259.285)
+ []29-09-2021 01:49:31.536 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ []29-09-2021 01:49:31.538 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ []29-09-2021 01:53:46.425 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ []29-09-2021 01:53:46.425 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ []29-09-2021 01:53:48.921 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.85 seconds (JVM running for 517.792)
+ []29-09-2021 01:54:00.491 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ []29-09-2021 01:54:00.495 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ []29-09-2021 01:56:09.323 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ 29-09-2021 01:56:09.323 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ 29-09-2021 01:56:12.046 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.114 seconds (JVM running for 660.915)
+ 29-09-2021 01:56:21.631 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ b64812dc0ee7e1d529-09-2021 01:56:21.633 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ b64812dc0ee7e1d529-09-2021 01:57:59.752 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ 29-09-2021 01:57:59.753 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ 29-09-2021 01:58:02.698 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 3.327 seconds (JVM running for 771.565)
+ 29-09-2021 01:58:03.957 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ 29-09-2021 01:58:03.957 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ 29-09-2021 01:58:06.875 [restartedMain] [INFO ] i.g.microservice.product.ApiProdutoApplication - Started ApiProdutoApplication in 3.3 seconds (JVM running for 775.743)
+ 29-09-2021 01:58:19.404 [http-nio-9000-exec-2] [INFO ] i.g.microservice.product.service.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ 3d06a320ecf6f54429-09-2021 01:58:19.406 [http-nio-9000-exec-2] [INFO ] i.g.m.product.controller.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+ 3d06a320ecf6f54429-09-2021 01:59:01.245 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+ 29-09-2021 01:59:01.245 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+ 29-09-2021 01:59:04.104 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.237 seconds (JVM running for 832.971)
+ 29-09-2021 02:01:10.891 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:01:10.891 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:01:13.774 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.264 seconds (JVM running for 962.641)
+29-09-2021 02:01:32.035 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:01:32.038 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:02:05.140 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:02:05.140 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:02:08.104 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.37 seconds (JVM running for 1016.97)
+29-09-2021 02:04:29.163 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:04:29.163 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:04:31.766 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.946 seconds (JVM running for 1160.632)
+29-09-2021 02:04:59.207 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:04:59.208 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:06:07.873 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:06:07.873 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:06:10.485 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.961 seconds (JVM running for 1259.35)
+29-09-2021 02:06:29.149 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:06:29.149 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:06:31.757 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.941 seconds (JVM running for 1280.621)
+29-09-2021 02:06:41.662 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:06:41.664 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:06:59.654 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:06:59.655 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:07:02.240 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 2.936 seconds (JVM running for 1311.105)
+29-09-2021 02:07:05.774 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:07:05.775 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+2021-09-29 14:07:52.667  INFO 7928 --- [  restartedMain] i.g.m.product.ApiProdutoApplication      : Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+2021-09-29 14:07:52.667  INFO 7928 --- [  restartedMain] i.g.m.product.ApiProdutoApplication      : No active profile set, falling back to default profiles: default
+2021-09-29 14:07:55.290  INFO 7928 --- [  restartedMain] i.g.m.product.ApiProdutoApplication      : Started ApiProdutoApplication in 2.971 seconds (JVM running for 1364.154)
+2021-09-29 14:07:58.703  INFO 7928 --- [nio-9000-exec-2] i.g.m.product.service.ProductService     : [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+2021-09-29 14:07:58.704  INFO 7928 --- [nio-9000-exec-2] i.g.m.p.controller.ProductController     : [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 02:14:14.675 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:14:14.675 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:14:17.901 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.628 seconds (JVM running for 1746.764)
+29-09-2021 02:21:23.596 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:21:23.596 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:21:26.543 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.31 seconds (JVM running for 2175.404)
+29-09-2021 02:22:27.123 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 02:22:27.123 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 02:22:30.114 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.349 seconds (JVM running for 2238.974)
+29-09-2021 14:22:57.921 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:22:57.921 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:23:00.867 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.305 seconds (JVM running for 2269.728)
+29-09-2021 14:24:09.587 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:24:09.587 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:24:12.514 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.281 seconds (JVM running for 2341.375)
+29-09-2021 14:24:28.811 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 14:24:28.812 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=3, nome=Notebook, marca=HP Tecnology, descricao=13.5 polegadas, ssd, teclado luminoso , preco=4200.00)]
+29-09-2021 14:24:58.653 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:24:58.653 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:25:01.581 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.286 seconds (JVM running for 2390.441)
+29-09-2021 14:26:24.887 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:26:24.887 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:26:28.029 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.592 seconds (JVM running for 2476.89)
+29-09-2021 14:27:41.622 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:27:41.622 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:27:44.576 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.317 seconds (JVM running for 2553.437)
+29-09-2021 14:28:41.011 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:28:41.011 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:28:45.991 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:28:45.991 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:28:48.908 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.279 seconds (JVM running for 2617.769)
+29-09-2021 14:30:13.043 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:30:13.044 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:30:15.870 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.178 seconds (JVM running for 2704.73)
+29-09-2021 14:33:27.487 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:33:27.487 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:33:30.517 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.434 seconds (JVM running for 2899.377)
+29-09-2021 14:33:35.889 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7928 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+29-09-2021 14:33:35.889 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+29-09-2021 14:33:38.889 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 3.392 seconds (JVM running for 2907.749)

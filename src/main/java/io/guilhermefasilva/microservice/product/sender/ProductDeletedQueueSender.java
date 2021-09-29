@@ -23,14 +23,16 @@ public class ProductDeletedQueueSender {
 		@Value("${product.deleted.queue}")
 		private String nameQueue;
 		
+		
+		
 		public void sendMessage(Product productMessage) throws JsonProcessingException {	
-				
+						
 						String messageJson = new ObjectMapper().writeValueAsString(productMessage);
 						Message messageSender = MessageBuilder
 								.withBody(messageJson.getBytes())
 								.setContentType(MessageProperties.CONTENT_TYPE_JSON)
 								.build();
-						this.rabbitTemplate.convertAndSend(this.nameQueue, messageSender);
+						rabbitTemplate.convertAndSend(this.nameQueue, messageSender);
 		}
 		
 }

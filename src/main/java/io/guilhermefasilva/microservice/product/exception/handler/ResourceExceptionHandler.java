@@ -20,8 +20,9 @@ import io.guilhermefasilva.microservice.product.exception.DatabaseException;
 import io.guilhermefasilva.microservice.product.exception.MessageError;
 import io.guilhermefasilva.microservice.product.exception.ResourceNotFoundException;
 import io.guilhermefasilva.microservice.product.exception.StandardError;
+import lombok.extern.slf4j.Slf4j;
 
-
+@Slf4j
 @ControllerAdvice
 public class ResourceExceptionHandler extends ResponseEntityExceptionHandler {	
 	
@@ -32,6 +33,7 @@ public class ResourceExceptionHandler extends ResponseEntityExceptionHandler {
 		String error = "Resource Not Found";
 		HttpStatus status = HttpStatus.NOT_FOUND;
 		StandardError err = new StandardError(Instant.now(), status.value(), error, e.getMessage(), request.getRequestURI());
+		log.error("[{} {} {} {}]",Instant.now(), error, status.value(), request.getRequestURI());
 		return ResponseEntity.status(status).body(err);
 	}
 	
@@ -54,6 +56,7 @@ public class ResourceExceptionHandler extends ResponseEntityExceptionHandler {
 		}
 		var msgDetails = "Erro de Validação de Campos";
 		MessageError messageError = new MessageError(msgDetails, errors);
+		log.error("{} {}",msgDetails, errors);
 		return new ResponseEntity<>(messageError, HttpStatus.BAD_REQUEST);
 		
 	}

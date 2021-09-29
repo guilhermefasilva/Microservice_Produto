@@ -30,13 +30,16 @@ import io.guilhermefasilva.microservice.product.service.ProductService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
+import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping("/products")
+@Slf4j
 public class ProductController {
 	
 	@Autowired
 	private ProductService productService;
+	
 	
 	@PostMapping
 	@ApiOperation(value = "Realiza o cadastro de produtos")
@@ -49,7 +52,9 @@ public class ProductController {
 			ProductDtoResponse produtoResponse =  productService.save(produtoRequest);
 			URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("{id}")
 					.buildAndExpand(produtoResponse.getId()).toUri();
+			log.info("[{}]",produtoResponse);
 		return ResponseEntity.created(uri).body(produtoResponse);
+				
 	}
 	 
 	@GetMapping
@@ -60,6 +65,7 @@ public class ProductController {
 	public ResponseEntity<List<ProductDtoResponse>> getAll(@RequestParam(required = false, defaultValue = "%") String nome,
 			@PageableDefault(sort="nome", direction = Direction.ASC, page = 0, size = 5) Pageable pageable){
 		List<ProductDtoResponse> productResponse = productService.findAll(nome, pageable);
+		log.info("[{}]",productResponse);
 		return ResponseEntity.ok().body(productResponse);
 	}
 	
@@ -72,6 +78,7 @@ public class ProductController {
 	
 	public ResponseEntity<ProductDtoResponse> getById(@PathVariable Long id ){
 		ProductDtoResponse produtoResponse = productService.findById(id);
+		log.info("[{}]", produtoResponse);
 		return ResponseEntity.ok().body(produtoResponse);
 	}
 	
@@ -86,6 +93,7 @@ public class ProductController {
 	public ResponseEntity<ProductDtoResponse> update(@PathVariable Long id,
 			@RequestBody  @Valid ProductDtoRequestUpdate productUpdate){
 		ProductDtoResponse productResponse = productService.update(id, productUpdate);
+		log.info("[{}]",productResponse);
 		return ResponseEntity.ok().body(productResponse);
 		
 	}
@@ -98,9 +106,12 @@ public class ProductController {
 	
 	public ResponseEntity<?> delete(@PathVariable Long id) throws JsonProcessingException {
 		productService.delete(id);
+		log.info("[{}]",id);
 		return ResponseEntity.noContent().build();
 	}
 
+	
+	
 	
 	
 }
