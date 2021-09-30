@@ -46,6 +46,7 @@ public class ProductController {
 	@ApiResponses(value = {
 						@ApiResponse(code = 201, message = "Requisição bem sucedida"),
 						@ApiResponse(code = 400, message = "Requisição não atendida dados incorretos ou falta informações"),
+						@ApiResponse(code = 403, message = "Acesso não pertimitido, realize a autenticação"),
 						@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
 	public ResponseEntity<ProductDtoResponse> create(@Valid @RequestBody ProductDtoRequest produtoRequest){
@@ -87,6 +88,7 @@ public class ProductController {
 	@ApiResponses(value = {
 					@ApiResponse(code = 200, message = "Requisição bem sucedida" ),
 					@ApiResponse(code = 400, message = "Requisição não atendida, dados incorretos ou falta informações"),
+					@ApiResponse(code = 403, message = "Acesso não pertimitido, realize a autenticação"),
 					@ApiResponse(code = 404, message = "Produto não encontrado"),
 					@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	
@@ -101,6 +103,7 @@ public class ProductController {
 	@ApiOperation(value = "Excluir um produto da base de dados.")
 	@ApiResponses(value= {
 						@ApiResponse(code = 204, message = "Requisição bem sucedida, não há recurso a ser exibido"),
+						@ApiResponse(code = 403, message = "Acesso não pertimitido, realize a autenticação"),
 						@ApiResponse(code = 404, message = "Produto não encontrado"),
 						@ApiResponse(code = 500, message = "Sistema indisponivel")})
 	

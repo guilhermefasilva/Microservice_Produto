@@ -20,8 +20,10 @@ import io.guilhermefasilva.microservice.product.repository.UserRepository;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
+import lombok.extern.slf4j.Slf4j;
 
 @Service
+@Slf4j
 public class AutenticacaoService implements UserDetailsService {
 	
 	@Autowired
@@ -40,21 +42,24 @@ public class AutenticacaoService implements UserDetailsService {
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		User user = userRepository.findByUsername(username)
 				.orElseThrow(()-> new ResourceNotFoundException("Dados Incorretos"));
-		return user;
+			return user;
 	}
 	
 	@Transactional
 	public LoginDto createLogin(LoginDto loginDto) {
 		User userLogin = modelMapper.map(loginDto, User.class);
 		var loginSaved = userRepository.save(userLogin);
+		log.info("Login salvo: {}", loginSaved);
 		return modelMapper.map(loginSaved, LoginDto.class);
 	}
 	
 	public String gerarToken(Authentication authentication) {
 		User userLogado = (User) authentication.getPrincipal();
+		log.info("Informações de usuario logado: {}", userLogado);
 		Date dateNow = new Date();
+		log.info("Data de geração do token: {}",dateNow);
 		Date dateExpiration = new Date(dateNow.getTime()+Long.parseLong(timeExpiration));
-		
+		log.info("Data de expiração do token: {}",dateExpiration);
 		return Jwts.builder()
 				.setIssuer("Products")
 				.setSubject(userLogado.getId().toString())
@@ -68,8 +73,10 @@ public class AutenticacaoService implements UserDetailsService {
 
 		try {
 			Jwts.parser().setSigningKey(this.secret).parseClaimsJws(token);
+			log.info("Token válido{}",token);
 			return true;
 		} catch (Exception e) {
+			log.error("Token Inválido: ",token);
 			return false;
 		}
 		
@@ -79,6 +86,7 @@ public class AutenticacaoService implements UserDetailsService {
 
 	public Long getIdUsuario(String token) {
 		Claims claims = Jwts.parser().setSigningKey(this.secret).parseClaimsJws(token).getBody();
+		log.info("Objeto: {}", claims );
 		return Long.parseLong(claims.getSubject());
 		
 	}

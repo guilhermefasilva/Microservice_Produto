@@ -14,7 +14,9 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import io.guilhermefasilva.microservice.product.domain.models.User;
 import io.guilhermefasilva.microservice.product.repository.UserRepository;
 import io.guilhermefasilva.microservice.product.service.AutenticacaoService;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class AutenticacaoToken extends OncePerRequestFilter {
 	
 	private AutenticacaoService authService;
@@ -33,8 +35,9 @@ public class AutenticacaoToken extends OncePerRequestFilter {
 			throws ServletException, IOException {
 		
 		String token = recuperarToken(request);
+		log.info("Token: {}",token);
 		boolean valido = authService.isTokenValido(token);
-		
+		log.info("Validação do tokent: {}",valido);
 		if(valido) {
 			autenticarCliente(token);
 		}
