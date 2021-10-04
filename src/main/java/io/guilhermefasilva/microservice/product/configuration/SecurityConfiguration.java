@@ -53,6 +53,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.antMatchers(HttpMethod.PUT,"/products/*").permitAll()
 		.antMatchers(HttpMethod.DELETE,"/products/*").permitAll()
 		
+		
+		
 		.anyRequest().authenticated()
 		.and().csrf().disable()
 		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
