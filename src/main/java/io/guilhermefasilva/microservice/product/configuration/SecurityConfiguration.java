@@ -47,6 +47,12 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.antMatchers(HttpMethod.GET,"/products").permitAll()
 		.antMatchers(HttpMethod.GET,"/products/*").permitAll()
 		.antMatchers(HttpMethod.POST,"/auth").permitAll()
+		//provisorio test cucumber
+		
+		.antMatchers(HttpMethod.POST,"/products").permitAll()
+		.antMatchers(HttpMethod.PUT,"/products/*").permitAll()
+		.antMatchers(HttpMethod.DELETE,"/products/*").permitAll()
+		
 		.anyRequest().authenticated()
 		.and().csrf().disable()
 		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)

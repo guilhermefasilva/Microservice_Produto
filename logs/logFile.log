@@ -221,3 +221,719 @@
 30-09-2021 13:40:47.717 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 7644 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
 30-09-2021 13:40:47.717 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
 30-09-2021 13:40:48.578 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 0.881 seconds (JVM running for 11108.424)
+02-10-2021 14:54:10.625 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 14844 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+02-10-2021 14:54:10.629 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+02-10-2021 14:54:15.120 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 4.886 seconds (JVM running for 5.837)
+02-10-2021 15:13:41.426 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:13:41.450 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+02-10-2021 15:13:41.450 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+02-10-2021 15:14:59.733 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:14:59.767 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+02-10-2021 15:14:59.767 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+02-10-2021 15:15:00.092 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=86, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:15:00.109 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=86, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:15:33.725 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:15:33.759 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+02-10-2021 15:15:33.759 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+02-10-2021 15:15:34.063 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=87, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:15:34.079 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=87, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:18:40.497 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:18:40.523 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+02-10-2021 15:18:40.524 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+02-10-2021 15:18:40.756 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=88, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:18:40.785 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=88, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:18:40.832 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:18:40.833 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+02-10-2021 15:18:40.833 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+02-10-2021 15:18:40.859 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=88, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+02-10-2021 15:18:40.860 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=88, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+02-10-2021 15:19:42.729 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:19:42.753 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+02-10-2021 15:19:42.753 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+02-10-2021 15:19:42.956 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=89, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:19:42.985 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=89, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+02-10-2021 15:19:43.022 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+02-10-2021 15:19:43.023 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+02-10-2021 15:19:43.023 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+02-10-2021 15:19:43.045 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=89, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+02-10-2021 15:19:43.046 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=89, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+02-10-2021 15:24:03.823 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Starting ApiProdutoApplication using Java 11.0.11 on CTNDELL55WP8F3 with PID 21496 (C:\Users\guilherme.assis\eclipse-workspace\microservice_produto\target\classes started by guilherme.assis in C:\Users\guilherme.assis\eclipse-workspace\microservice_produto)
+02-10-2021 15:24:03.826 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - No active profile set, falling back to default profiles: default
+02-10-2021 15:24:09.261 [restartedMain] [INFO ] i.g.m.p.ApiProdutoApplication - Started ApiProdutoApplication in 5.882 seconds (JVM running for 7.011)
+04-10-2021 09:25:34.007 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:25:34.042 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:25:34.043 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:25:34.437 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=90, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:25:34.463 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=90, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:25:34.551 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:25:34.552 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:25:34.552 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:25:34.608 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=90, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:25:34.611 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=90, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:26:19.362 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:26:19.398 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:26:19.399 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:26:19.729 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=91, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:26:19.747 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=91, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:26:19.798 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:26:19.799 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:26:19.799 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:26:19.843 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=91, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:26:19.845 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=91, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:26:53.707 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:26:53.745 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:26:53.746 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:26:54.076 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=92, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:26:54.093 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=92, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:26:54.134 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:26:54.135 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:26:54.135 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:26:54.171 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=92, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:26:54.172 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=92, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:27:51.120 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:27:51.170 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:27:51.170 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:27:51.506 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=93, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:27:51.522 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=93, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:27:51.564 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:27:51.565 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:27:51.565 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:27:51.598 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=93, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:27:51.599 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=93, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:31:07.557 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:31:07.592 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:31:07.592 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:31:07.908 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=94, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:31:07.929 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=94, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:31:07.977 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:31:07.978 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:31:07.978 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:31:08.018 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=94, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:31:08.020 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=94, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:31:46.658 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:31:46.696 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:31:46.697 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:31:46.997 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=95, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:31:47.015 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=95, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:31:47.057 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:31:47.057 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:31:47.057 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:31:47.094 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=95, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:31:47.096 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=95, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:38:36.945 [http-nio-9000-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:38:36.981 [http-nio-9000-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:38:36.982 [http-nio-9000-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:38:37.319 [http-nio-9000-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=96, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:38:37.338 [http-nio-9000-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=96, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:38:37.384 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:38:37.385 [http-nio-9000-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 09:38:37.385 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 09:38:37.423 [http-nio-9000-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=96, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:38:37.424 [http-nio-9000-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=96, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:41:51.193 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:41:51.224 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 09:41:51.225 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 09:41:51.477 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=97, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:41:51.489 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=97, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 09:41:51.519 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 09:41:51.519 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 09:41:51.519 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 09:41:51.545 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=97, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 09:41:51.546 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=97, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:26:57.898 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:26:57.924 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:26:57.924 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:26:58.146 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=98, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:26:58.165 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=98, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:26:58.188 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:26:58.189 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:26:58.189 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:26:58.212 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=98, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:26:58.212 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=98, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:38:00.075 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:38:00.101 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:38:00.101 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:38:00.357 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=99, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:38:00.370 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=99, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:38:00.389 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:38:00.389 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:38:00.389 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:38:00.412 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=99, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:38:00.413 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=99, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:38:00.437 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:38:00.437 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:38:00.437 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:39:02.001 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:39:02.042 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 11:39:02.042 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 11:39:02.306 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=100, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:39:02.319 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=100, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:39:02.343 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:39:02.343 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 11:39:02.343 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 11:39:02.372 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=100, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:39:02.373 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=100, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:39:02.390 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:39:02.390 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 11:39:02.390 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 11:40:55.933 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:40:55.957 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:40:55.957 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:40:56.199 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=101, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:40:56.209 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=101, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:40:56.228 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:40:56.229 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:40:56.229 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:40:56.255 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=101, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:40:56.256 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=101, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:40:56.279 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:40:56.279 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:40:56.279 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:43:10.453 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:43:10.476 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:43:10.477 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:43:10.693 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=102, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:43:10.704 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=102, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:43:10.723 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:43:10.723 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:43:10.723 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:43:10.748 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=102, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:43:10.749 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=102, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:43:10.771 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:43:10.771 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:43:10.771 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:43:54.063 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:43:54.088 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 11:43:54.088 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 11:43:54.329 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=103, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:43:54.344 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=103, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:43:54.366 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:43:54.367 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 11:43:54.367 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 11:43:54.398 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=103, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:43:54.399 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=103, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:43:54.421 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:43:54.421 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 11:43:54.421 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 11:52:43.218 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:52:43.250 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:52:43.250 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:52:43.488 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=104, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:52:43.502 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=104, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 11:52:43.525 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:52:43.525 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:52:43.525 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 11:52:43.555 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=104, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:52:43.556 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=104, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 11:52:43.581 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 11:52:43.582 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 11:52:43.582 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:23:58.578 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:23:58.611 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:23:58.611 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:23:58.897 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=105, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:23:58.911 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=105, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:23:58.933 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:23:58.934 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:23:58.934 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:23:58.962 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=105, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:23:58.963 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=105, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:23:58.970 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:23:58.971 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:23:58.971 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:28:13.451 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:28:13.490 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:28:13.491 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:28:13.861 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=106, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:28:13.880 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=106, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:28:13.919 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:28:13.920 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:28:13.920 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:28:13.961 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=106, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:28:13.962 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=106, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:28:13.971 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:28:13.972 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:28:13.972 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:29:03.559 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:29:03.595 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 14:29:03.596 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 14:29:03.884 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=107, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:29:03.902 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=107, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:29:03.927 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:29:03.929 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 14:29:03.929 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 14:29:03.964 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=107, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:29:03.965 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=107, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:29:03.970 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:29:03.971 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 14:29:03.971 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 14:31:03.209 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:31:03.244 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:31:03.245 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:31:03.594 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=108, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:31:03.612 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=108, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:31:03.647 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:31:03.648 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:31:03.648 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:31:03.689 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=108, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:31:03.691 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=108, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:31:03.698 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:31:03.699 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:31:03.699 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:55:48.809 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:55:48.837 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:55:48.838 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:55:49.078 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=109, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:55:49.091 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=109, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 14:55:49.115 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 14:55:49.116 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 14:55:49.116 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 14:55:49.146 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=109, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 14:55:49.147 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=109, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:01:37.441 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:01:37.483 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:01:37.483 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:01:37.800 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=110, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:01:37.817 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=110, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:01:37.846 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:01:37.847 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:01:37.847 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:01:37.884 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=110, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:01:37.886 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=110, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:02:26.221 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:02:26.253 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:02:26.253 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:02:26.503 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=111, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:02:26.536 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=111, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:02:26.563 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:02:26.564 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:02:26.564 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:02:26.603 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=111, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:02:26.604 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=111, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:02:26.612 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:02:26.612 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:02:26.612 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:03:28.237 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:03:28.276 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:03:28.276 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:03:28.582 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=112, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:03:28.597 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=112, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:03:28.632 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:03:28.633 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:03:28.634 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:03:28.670 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=112, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:03:28.671 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=112, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:03:28.679 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:03:28.679 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:03:28.679 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:03:28.693 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=112, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:03:28.732 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [112]
+04-10-2021 15:08:03.615 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:08:03.657 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:08:03.657 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:08:03.898 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=113, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:08:03.910 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=113, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:08:03.929 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:08:03.930 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:08:03.930 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:08:03.951 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=113, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:08:03.951 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=113, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:08:03.956 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:08:03.957 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:08:03.957 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:08:03.964 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=113, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:08:03.982 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [113]
+04-10-2021 15:29:16.629 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:29:16.688 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:29:16.689 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:30:27.607 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:30:27.635 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:30:27.635 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:31:30.107 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:31:30.134 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:31:30.134 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:32:42.057 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:32:42.088 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:32:42.088 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:32:42.405 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=114, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:32:42.423 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=114, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:32:42.450 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:32:42.451 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:32:42.451 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:32:42.490 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=114, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:32:42.491 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=114, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:32:42.500 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:32:42.500 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:32:42.500 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:33:58.131 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:33:58.158 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:33:58.159 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:33:58.371 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=115, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:33:58.382 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=115, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:33:58.404 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:33:58.405 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:33:58.405 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:33:58.434 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=115, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:33:58.435 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=115, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:33:58.442 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:33:58.442 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:33:58.442 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:33:58.451 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=115, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:33:58.477 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [115]
+04-10-2021 15:35:28.294 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:35:28.323 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:35:28.324 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:35:28.579 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=116, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:35:28.591 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=116, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:35:28.614 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:35:28.615 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:35:28.615 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:35:28.639 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=116, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:35:28.640 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=116, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:35:28.646 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:35:28.646 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:35:28.646 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:40:36.281 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:40:36.318 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:40:36.319 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:40:36.606 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=117, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:40:36.625 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=117, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:40:36.654 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:40:36.654 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:40:36.654 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:40:36.688 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=117, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:40:36.690 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=117, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:40:36.698 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:40:36.698 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:40:36.698 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:40:36.710 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=117, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:40:36.745 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [117]
+04-10-2021 15:41:49.384 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:41:49.408 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:41:49.408 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:41:49.610 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=118, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:41:49.620 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=118, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 15:41:49.638 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:41:49.638 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:41:49.638 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:41:49.661 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=118, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:41:49.662 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=118, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:41:49.667 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 15:41:49.668 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 15:41:49.668 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 15:41:49.674 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=118, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 15:41:49.691 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [118]
+04-10-2021 16:09:23.141 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:09:23.173 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:09:23.173 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:09:23.458 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=119, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:09:23.476 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=119, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:09:23.507 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:09:23.508 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:09:23.508 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:09:23.543 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=119, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:09:23.544 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=119, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:09:23.553 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:09:23.554 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:09:23.554 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:10:07.301 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:10:07.336 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:10:07.337 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:10:07.636 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=120, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:10:07.654 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=120, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:10:07.688 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:10:07.689 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:10:07.689 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:10:07.732 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=120, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:10:07.733 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=120, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:10:07.742 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:10:07.742 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:10:07.743 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:10:07.771 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=120, nome=Ibrupofeno, marca=Advil Generico, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:10:07.788 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=120, nome=Ibrupofeno, marca=Advil Generico, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:10:07.794 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:10:07.794 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:10:07.795 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:10:07.804 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=120, nome=Ibrupofeno, marca=Advil Generico, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 16:10:07.829 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [120]
+04-10-2021 16:11:08.972 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:11:09.004 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:11:09.005 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:11:09.271 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=121, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:11:09.285 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=121, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:11:09.309 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:11:09.310 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:11:09.310 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:11:09.342 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=121, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:11:09.343 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=121, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:11:09.350 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:11:09.350 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:11:09.350 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:11:09.369 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=121, nome=Ibrupofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:11:09.380 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=121, nome=Ibrupofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:12:41.280 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:12:41.311 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:12:41.311 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:12:41.576 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=122, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:12:41.592 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=122, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:12:41.622 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:12:41.623 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:12:41.623 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:12:41.661 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=122, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:12:41.662 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=122, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:13:15.233 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:13:15.267 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:13:15.267 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:13:15.579 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=123, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:13:15.596 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=123, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:13:15.623 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:13:15.624 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:13:15.624 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:13:15.662 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=123, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:13:15.663 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=123, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:14:33.598 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:14:33.625 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:14:33.625 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:14:33.836 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=124, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:14:33.849 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=124, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:14:33.873 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:14:33.874 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:14:33.874 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:14:33.901 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=124, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:14:33.901 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=124, nome=Ibrupofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:14:33.909 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:14:33.909 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:14:33.909 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:14:33.931 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=124, nome=Ibrupofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:14:33.939 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=124, nome=Ibrupofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:14:33.943 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:14:33.943 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:14:33.943 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:14:33.950 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=124, nome=Ibrupofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 16:14:33.965 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [124]
+04-10-2021 16:48:14.056 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:48:14.081 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:48:14.081 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:48:14.325 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=125, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:48:14.338 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=125, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:48:14.362 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:48:14.363 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:48:14.363 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:48:14.391 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=125, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:48:14.392 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=125, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:48:14.399 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:48:14.399 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:48:14.400 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:48:14.418 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=125, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:48:14.427 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=125, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:48:14.452 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:48:14.452 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:48:14.452 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:49:25.469 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:49:25.495 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:49:25.496 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:49:25.734 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=126, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:49:25.748 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=126, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:49:25.775 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:49:25.776 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:49:25.776 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:49:25.808 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=126, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:49:25.809 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=126, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:49:25.818 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:49:25.818 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:49:25.818 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:49:25.837 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=126, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:49:25.846 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=126, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:49:25.872 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:49:25.872 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:49:25.872 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:50:42.802 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:50:42.827 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:50:42.827 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:50:43.080 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=127, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:50:43.095 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=127, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:50:43.123 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:50:43.123 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:50:43.123 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:50:43.157 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=127, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:50:43.158 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=127, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:50:43.167 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:50:43.168 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:50:43.168 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:50:43.190 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=127, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:50:43.202 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=127, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:51:35.728 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:51:35.751 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 16:51:35.751 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 16:51:35.983 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=128, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:51:35.993 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=128, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:51:36.013 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:51:36.014 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 16:51:36.014 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 16:51:36.037 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=128, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:51:36.038 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=128, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:51:36.043 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:51:36.044 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 16:51:36.044 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 16:51:36.063 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [Product(id=128, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:51:36.071 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=128, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:51:36.074 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:51:36.074 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 16:51:36.074 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 16:51:36.080 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=128, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 16:51:36.094 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [128]
+04-10-2021 16:55:17.844 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:55:17.873 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:55:17.873 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:55:18.181 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=129, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:55:18.195 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=129, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:55:18.221 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:55:18.222 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:55:18.222 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:55:18.255 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=129, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:55:18.256 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=129, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:55:18.265 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:55:18.265 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:55:18.265 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:55:18.314 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 16:55:18.316 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 16:59:06.899 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:59:06.924 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:59:06.925 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:59:07.132 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=130, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:59:07.144 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=130, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:59:07.167 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:59:07.168 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:59:07.169 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:59:07.202 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=130, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:59:07.203 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=130, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 16:59:07.210 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:59:07.210 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:59:07.210 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:59:07.249 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 16:59:07.250 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 16:59:07.258 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:59:07.258 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:59:07.258 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:59:07.278 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=130, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:59:07.292 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=130, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 16:59:07.296 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 16:59:07.296 [http-nio-auto-1-exec-5] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 16:59:07.296 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 16:59:07.303 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.ProductService - [Product(id=130, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 16:59:07.323 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.c.ProductController - [130]
+04-10-2021 17:02:57.426 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:02:57.452 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 17:02:57.452 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 17:02:57.699 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=131, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:02:57.718 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=131, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:02:57.747 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:02:57.748 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 17:02:57.748 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 17:02:57.775 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=131, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:02:57.776 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=131, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:02:57.782 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:02:57.782 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 17:02:57.782 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 17:02:57.818 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:02:57.819 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:02:57.826 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:02:57.827 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 17:02:57.827 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 17:02:57.847 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=131, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:02:57.856 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=131, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:02:57.860 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:02:57.860 [http-nio-auto-1-exec-5] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inv�lido: 
+04-10-2021 17:02:57.860 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Valida��o do tokent: false
+04-10-2021 17:02:57.868 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.ProductService - [Product(id=131, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 17:02:57.887 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.c.ProductController - [131]
+04-10-2021 17:09:27.476 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:09:27.509 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:09:27.510 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:09:27.805 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=132, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:09:27.831 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=132, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:09:27.866 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:09:27.866 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:09:27.867 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:09:27.911 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=132, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:09:27.912 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=132, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:09:27.920 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:09:27.920 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:09:27.920 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:09:27.972 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:09:27.974 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:10:06.117 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:06.155 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:06.155 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:06.440 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=133, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:06.453 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=133, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:06.479 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:06.480 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:06.480 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:06.516 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=133, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:10:06.517 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=133, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:10:06.528 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:06.528 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:06.528 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:06.573 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:10:06.575 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:10:06.584 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:06.584 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:06.585 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:06.608 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=133, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:06.618 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=133, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:06.622 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:06.623 [http-nio-auto-1-exec-5] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:06.623 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:06.631 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.ProductService - [Product(id=133, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 17:10:06.651 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.c.ProductController - [133]
+04-10-2021 17:10:39.188 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:39.222 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:39.223 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:39.476 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=134, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:39.491 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=134, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:39.518 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:39.520 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:39.520 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:39.562 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=134, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:10:39.563 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=134, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:10:39.572 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:39.572 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:39.572 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:39.625 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:10:39.628 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:10:39.637 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:39.637 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:39.638 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:39.663 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=134, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:39.677 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=134, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:10:39.682 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:10:39.683 [http-nio-auto-1-exec-5] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:10:39.683 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:10:39.695 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.ProductService - [Product(id=134, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 17:10:39.722 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.c.ProductController - [134]
+04-10-2021 17:11:22.920 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:11:22.953 [http-nio-auto-1-exec-1] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:11:22.953 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:11:23.208 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.s.ProductService - [Product(id=135, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:11:23.220 [http-nio-auto-1-exec-1] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=135, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:11:23.243 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:11:23.244 [http-nio-auto-1-exec-2] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:11:23.245 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:11:23.274 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.s.ProductService - [Product(id=135, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:11:23.275 [http-nio-auto-1-exec-2] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=135, nome=Ibuprofeno, marca=Advil, descricao=Analgesico com 8 capsulas, preco=20.99)]
+04-10-2021 17:11:23.281 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:11:23.281 [http-nio-auto-1-exec-3] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:11:23.281 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:11:23.322 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.s.ProductService - [[Product(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), Product(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), Product(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), Product(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:11:23.323 [http-nio-auto-1-exec-3] [INFO ] i.g.m.p.c.ProductController - [[ProductDtoResponse(id=28, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=27, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=50.00), ProductDtoResponse(id=29, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.01), ProductDtoResponse(id=30, nome=Anador, marca=Generico, descricao=Anador com 40 comprimidos, preco=0.00), ProductDtoResponse(id=46, nome=Anador, marca=Generico, descricao=caixa com 6 comprimidos, preco=19.99)]]
+04-10-2021 17:11:23.331 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:11:23.332 [http-nio-auto-1-exec-4] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:11:23.332 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:11:23.355 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.s.ProductService - [Product(id=135, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:11:23.366 [http-nio-auto-1-exec-4] [INFO ] i.g.m.p.c.ProductController - [ProductDtoResponse(id=135, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.989999999999998436805981327779591083526611328125)]
+04-10-2021 17:11:23.370 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Token: null
+04-10-2021 17:11:23.371 [http-nio-auto-1-exec-5] [ERROR] i.g.m.p.s.AutenticacaoService - Token Inválido: 
+04-10-2021 17:11:23.371 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.AutenticacaoToken - Validação do tokent: false
+04-10-2021 17:11:23.378 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.s.ProductService - [Product(id=135, nome=Ibuprofeno, marca=Aspirina, descricao=Analgesico com 10 capsulas, preco=25.99)]
+04-10-2021 17:11:23.396 [http-nio-auto-1-exec-5] [INFO ] i.g.m.p.c.ProductController - [135]
